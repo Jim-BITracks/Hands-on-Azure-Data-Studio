@@ -1,0 +1,37 @@
+- title: Welcome
+  url: /readme
+  not_numbered: true
+- title: Search
+  search: true
+  
+- title: Landscape 
+  url: /landscape/readme
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: CH-02-1 - Creating, Using, and Managing Connections
+    url: landscape/CH-02-1-creating-using-and-managing-connections
+  - title: CH-02-2 - Grouping and Color Coding your Connections
+    url: landscape/CH-02-2-grouping-and-color-coding-your-connections 
+  - title: CH-02-3 - Central Management Servers Extension
+    url: landscape/CH-02-3-central-management-servers-extension 
+  - title: CH-03-1 - IntelliSense, Snippets and Object Definitions
+    url: landscape/CH-03-1-intelliSense-snippets-and-object-definitions
+  - title: CH-03-2 - Saving Queries and Snippets
+    url: landscape/CH-03-2-saving-queries-and-snippets
+  - title: CH-03-3 - Top Down View with Minimap
+    url: landscape/CH-03-3-top-down-view-with-minimap
+  - title: CH-03-4 - SQL Queries via the Command Terminal
+    url: landscape/CH-03-4-sql-queries-via-the-command-terminal
+  
+- title: Deep Dives 
+  url: /deepdive/readme
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: CH-09-1 - Creating and Managing Snippets
+    url: deepdive/CH-09-1-creating-and-managing-snippets
+  - title: CH-09-2 - Options for Parameters and Drop-downs
+    url: deepdive/CH-09-2-options-for-parameters-and-drop-downs 
+  - title: CH-09-3 - Management of Verbose and Numerous Snippets
+    url: deepdive/CH-09-3-management-of-verbose-and-numerous-snippets 

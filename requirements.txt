@@ -1,0 +1,4 @@
+# Requirements for the demo notebooks
+# Useful for MyBinder configuration
+pandas
+jupyter-book
