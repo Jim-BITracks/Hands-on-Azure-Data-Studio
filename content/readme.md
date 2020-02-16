@@ -9,5 +9,6 @@ NOTE: Currently the intra book hyperlinks do not work if this Jupyter Book is ho
 
 ## Parts
 
-1. [The Landscape](landscape/readme.md) - notebooks to discover the Big Picture.
-1. [The Deep Dives](deepdive/readme.md) - notebooks for the ADS Deep Dives.
+1. [The Landscape](landscape/readme.md) - Notebooks to discover the Big Picture.
+1. [The Deep Dives](deep_dive/readme.md) - Notebooks for the ADS Deep Dives.
+1. [The Case Study](case_study/readme.md) - Notebooks for the ADS Extension Case Study.

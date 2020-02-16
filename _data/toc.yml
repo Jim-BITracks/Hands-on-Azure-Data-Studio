@@ -9,29 +9,49 @@
   not_numbered: true
   expand_sections: true
   sections:
-  - title: CH-02-1 - Creating, Using, and Managing Connections
-    url: landscape/CH-02-1-creating-using-and-managing-connections
-  - title: CH-02-2 - Grouping and Color Coding your Connections
-    url: landscape/CH-02-2-grouping-and-color-coding-your-connections 
-  - title: CH-02-3 - Central Management Servers Extension
-    url: landscape/CH-02-3-central-management-servers-extension 
-  - title: CH-03-1 - IntelliSense, Snippets and Object Definitions
-    url: landscape/CH-03-1-intelliSense-snippets-and-object-definitions
-  - title: CH-03-2 - Saving Queries and Snippets
-    url: landscape/CH-03-2-saving-queries-and-snippets
-  - title: CH-03-3 - Top Down View with Minimap
-    url: landscape/CH-03-3-top-down-view-with-minimap
-  - title: CH-03-4 - SQL Queries via the Command Terminal
-    url: landscape/CH-03-4-sql-queries-via-the-command-terminal
-  
+  - title: CH-01 - Open Source, Cross-Platform, Multi-Database
+    url: landscape/CH-01
+  - title: CH-02 - Everything Starts with a Connection
+    url: landscape/CH-02
+  - title: CH-03 - SQL Editing Reimagined
+    url: landscape/CH-03
+  - title: CH-04 - Visualizing and Exporting Your Queries
+    url: landscape/CH-04
+  - title: CH-05 - Getting Things Done with Notebooks
+    url: landscape/CH-05
+  - title: CH-06 - Reaching Beyond SQL with PowerShell and Python
+    url: landscape/CH-06
+  - title: CH-07 - Source Control by Design
+    url: landscape/CH-07
+  - title: CH-08 - Free and Easy Extensions
+    url: landscape/CH-08
+
 - title: Deep Dives 
-  url: /deepdive/readme
+  url: /deep_dive/readme
   not_numbered: true
   expand_sections: true
   sections:
-  - title: CH-09-1 - Creating and Managing Snippets
-    url: deepdive/CH-09-1-creating-and-managing-snippets
-  - title: CH-09-2 - Options for Parameters and Drop-downs
-    url: deepdive/CH-09-2-options-for-parameters-and-drop-downs 
-  - title: CH-09-3 - Management of Verbose and Numerous Snippets
-    url: deepdive/CH-09-3-management-of-verbose-and-numerous-snippets 
+  - title: CH-09 - Creating Snippets
+    url: deep_dive/CH-09
+  - title: CH-10 - Customizing your Dashboards
+    url: deep_dive/CH-10
+  - title: CH-11 - Notebooks Gone Wild
+    url: deep_dive/CH-11
+  - title: CH-12 - The Fully Integrated Terminal Window
+    url: deep_dive/CH-12
+  - title: CH-13 - Protect, Version, and Collaborate with Git
+    url: deep_dive/CH-13
+  - title: CH-14 - Using Python to Extend Your Platform Reach
+    url: deep_dive/CH-14
+  - title: CH-15 - Using PowerShell to Integrate with Azure Data Factory
+    url: deep_dive/CH-15
+  - title: CH-16 - Building an Official Extension
+    url: deep_dive/CH-16
+
+- title: Case Study
+  url: /case_study/readme
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: CH-17 - Application Integration with ADS 
+    url: case_study/CH-17
