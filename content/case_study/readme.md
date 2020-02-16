@@ -1,6 +1,6 @@
-# The Landscape
+# Case Study
 
-- A set of notebooks used for discovering the Big Picture.
+- A notebook to support Integration with Azure Data Studio.
 
 [Home](../readme.md)
 
