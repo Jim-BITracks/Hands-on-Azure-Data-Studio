@@ -1,6 +1,6 @@
 # The Landscape
 
-- A set of notebooks used for discovering the Big Picture.
+Before jumping into Azure Data Studio, it is worthwhile to step back to gaze on the big picture. There are at least four ways to accomplish the same task, and in perhaps very different ways. Despite our tendency to achieve as much as possible, in as little time as possible, it helps to view your work products based on shelf-life, reusability, orchestration, storage, sharing and even collaboration.
 
 [Home](../readme.md)
 
