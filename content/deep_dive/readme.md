@@ -7,7 +7,7 @@ This section seeks to dig deeper into many of the topics and features introduced
 
 ## Notebooks in Part II
 - [Chapter 9 - Creating Snippets](CH-09.ipynb)
-- [Chapter 10 - Customizing your Dashboards](CH-10.ipynb)
+- [Chapter 10 - Customizing your Dashboards](CH-10/readme.md)
 - [Chapter 11 - Notebooks Gone Wild](CH-11.ipynb)
 - [Chapter 12 - The Fully Integrated Terminal Window](CH-12.ipynb)
 - [Chapter 13 - Protect, Version, and Collaborate with Git](CH-13.ipynb)
