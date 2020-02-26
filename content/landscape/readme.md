@@ -6,7 +6,7 @@ Before jumping into Azure Data Studio, it is worthwhile to step back to gaze on 
 
 ## Notebooks in Part I
 - [Chapter 1 - Open Source, Cross-Platform, Multi-Database](CH-01.ipynb)
-- [Chapter 2 - Everything Starts with a Connection](CH-02.ipynb)
+- [Chapter 2 - Everything Starts with a Connection](CH-02/readme.md)
 - [Chapter 3 - SQL Editing Reimagined](CH-03.ipynb)
 - [Chapter 4 - Visualizing and Exporting Your Queries](CH-04.ipynb)
 - [Chapter 5 - Getting Things Done with Notebooks](CH-05.ipynb)
