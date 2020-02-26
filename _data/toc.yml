@@ -67,3 +67,15 @@
     url: CH-02/CH-02-02
   - title: CH-02-03 - Central Management Servers Extension
     url: CH-02/CH-02-03
+
+- title: Customizing your Dashboards
+  url: /CH-10/readme
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: CH-10-01 - Dashboards and Widgets
+    url: CH-10/CH-10-01
+  - title: CH-10-02 - SQL Queries and your Widgets
+    url: CH-10/CH-10-02
+  - title: CH-10-03 - Drill-in with Insight Detail Pages
+    url: CH-10/CH-10-03
