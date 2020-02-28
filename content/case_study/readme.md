@@ -5,4 +5,4 @@ This section will be the deepest of our deep dives. We set out to try, discover,
 [Home](../readme.md)
 
 ## Notebooks in Part III
-- [Chapter 17 - Application Integration with ADS](CH-17.ipynb)
+- [Chapter 17 - Application Integration with ADS](CH-17/readme.md)
