@@ -118,7 +118,16 @@
   expand_sections: true
   sections:
   - title: CH-09 - Creating Snippets
-    url: deep_dive/CH-09
+    url: deep_dive/CH-09/readme
+    not_numbered: true
+    expand_sections: false
+    sections:
+    - title: CH-09-01 - Creating and Managing Snippets
+      url: deep_dive/CH-09/CH-09-01
+    - title: CH-09-02 - Options for Parameters and Drop-downs
+      url: deep_dive/CH-09/CH-09-02
+    - title: CH-09-03 - Management of Verbose and Numerous Snippets
+      url: deep_dive/CH-09/CH-09-03
   - title: CH-10 - Customizing your Dashboards
     url: deep_dive/CH-10/readme
     not_numbered: true
@@ -131,22 +140,96 @@
     - title: CH-10-03 - Central Management Servers Extension
       url: deep_dive/CH-10/CH-10-03
   - title: CH-11 - The Power and Versatility of Notebooks
-    url: deep_dive/CH-11
+    url: deep_dive/CH-11/readme
+    not_numbered: true
+    expand_sections: false
+    sections:
+    - title: CH-11-01 - Feels Like a Book, Built on Json
+      url: deep_dive/CH-11/CH-11-01
+    - title: CH-11-02 - Organizing, Navigating, Sharing and Trusting
+      url: deep_dive/CH-11/CH-11-02
+    - title: CH-11-03 - Getting at Big Data with Spark
+      url: deep_dive/CH-11/CH-11-03
+    - title: CH-11-04 - Notebooks creating Notebooks – Say What?
+      url: deep_dive/CH-11/CH-11-04  
   - title: CH-12 - The Fully Integrated Terminal Window
-    url: deep_dive/CH-12
+    url: deep_dive/CH-12/readme
+    not_numbered: true
+    expand_sections: false
+    sections:
+    - title: CH-12-01 - Multi-Session and Multi-Lingual
+      url: deep_dive/CH-12/CH-12-01
+    - title: CH-12-02 - Key Bindings – Mouse Optional
+      url: deep_dive/CH-12/CH-12-02
+    - title: CH-12-03 - PowerShell Core and Living Cross-Platform
+      url: deep_dive/CH-12/CH-12-03
   - title: CH-13 - Protect, Version, and Collaborate with Git
-    url: deep_dive/CH-13
+    url: deep_dive/CH-13/readme
+    not_numbered: true
+    expand_sections: false
+    sections:
+    - title: CH-13-01 - Start with a GitHub account
+      url: deep_dive/CH-13/CH-13-01
+    - title: CH-13-02 - Source Repositories, Cloning and Sharing
+      url: deep_dive/CH-13/CH-13-02
+    - title: CH-13-03 - Stage, Commit, and Sync
+      url: deep_dive/CH-13/CH-13-03
   - title: CH-14 - Using Python to Extend Your Platform Reach
-    url: deep_dive/CH-14
+    url: deep_dive/CH-14/readme
+    not_numbered: true
+    expand_sections: false
+    sections:
+    - title: CH-14-01 - The snowflake CLI
+      url: deep_dive/CH-14/CH-14-01
+    - title: CH-14-02 - Python and the first-class snowflake connector
+      url: deep_dive/CH-14/CH-14-02
+    - title: CH-14-03 - Loading and Querying snowflake
+      url: deep_dive/CH-14/CH-14-03
   - title: CH-15 - Using PowerShell to Integrate with Azure Data Factory
-    url: deep_dive/CH-15
+    url: deep_dive/CH-15/readme
+    not_numbered: true
+    expand_sections: false
+    sections:
+    - title: CH-15-01 - The AZ PowerShell Module
+      url: deep_dive/CH-15/CH-15-01
+    - title: CH-15-02 - Getting connected in Azure Data Factory
+      url: deep_dive/CH-15/CH-15-02
+    - title: CH-15-03 - Working with Datasets
+      url: deep_dive/CH-15/CH-15-03
+    - title: CH-15-04 - Invoking a Pipeline to Copy Data
+      url: deep_dive/CH-15/CH-15-04
   - title: CH-16 - Building an Official Extension
-    url: deep_dive/CH-16
-
+    url: deep_dive/CH-16/readme
+    not_numbered: true
+    expand_sections: false
+    sections:
+    - title: CH-16-01 - Installing Prerequisites - Node.js and Visual Studio Code
+      url: deep_dive/CH-16/CH-16-01
+    - title: CH-16-02 - Choosing your Type – Extension Categories
+      url: deep_dive/CH-16/CH-16-02
+    - title: CH-16-03 - Testing, Creating and Sharing your Extension
+      url: deep_dive/CH-16/CH-16-03
+    - title: CH-16-04 - Expanding your vision
+      url: deep_dive/CH-16/CH-16-04 
 - title: Case Study
   url: case_study/readme
   not_numbered: true
   expand_sections: true
   sections:
   - title: CH-17 - Application Integration with ADS 
-    url: case_study/CH-17
+    url: case_study/CH-17/readme
+    not_numbered: true
+    expand_sections: false
+    sections:
+    - title: CH-17-01 - Introduction to the Application
+      url: case_study/CH-17/CH-17-01
+    - title: CH-17-02 - The Anatomy of an ADS Extension
+      url: case_study/CH-17/CH-17-02
+    - title: CH-17-03 - Redefining Agile
+      url: case_study/CH-17/CH-17-03
+    - title: CH-17-04 - Leveraging all the SQL Editor Features
+      url: case_study/CH-17/CH-17-04
+    - title: CH-17-05 - Integrating with Custom Forms
+      url: case_study/CH-17/CH-17-05
+    - title: CH-17-06 - Possibilities when using the Integrated Terminal
+      url: case_study/CH-17/CH-17-06
