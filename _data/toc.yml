@@ -5,14 +5,14 @@
   search: true
   
 - title: Landscape 
-  url: landscape/readme
+  url: /landscape/readme
   not_numbered: true
   expand_sections: true
   sections:
   - title: CH-01 - Open Source, Cross-Platform, Multi-Database
     url: landscape/CH-01/readme
     not_numbered: true
-    expand_sections: false
+    expand_sections: true
     sections:
     - title: CH-01-01 - What “Open Source” means for this new breed of Microsoft Software
       url: landscape/CH-01/CH-01-01
@@ -23,7 +23,7 @@
   - title: CH-02 - Everything Starts with a Connection
     url: landscape/CH-02/readme
     not_numbered: true
-    expand_sections: false
+    expand_sections: true
     sections:
     - title: CH-02-01 - Creating, Using, and Managing Connections
       url: landscape/CH-02/CH-02-01
@@ -34,7 +34,7 @@
   - title: CH-03 - SQL Editing Reimagined
     url: landscape/CH-03/readme
     not_numbered: true
-    expand_sections: false
+    expand_sections: true
     sections:
     - title: CH-03-01 - Entering Queries - IntelliSense, Snippets and Object Definitions
       url: landscape/CH-03/CH-03-01
@@ -47,7 +47,7 @@
   - title: CH-04 - Visualizing and Exporting Your Queries
     url: landscape/CH-04/readme
     not_numbered: true
-    expand_sections: false
+    expand_sections: true
     sections:
     - title: CH-04-01 - Anatomy of the Results Pane
       url: landscape/CH-04/CH-04-01
@@ -60,7 +60,7 @@
   - title: CH-05 - Getting Things Done with Notebooks
     url: landscape/CH-05/readme
     not_numbered: true
-    expand_sections: false
+    expand_sections: true
     sections:
     - title: CH-05-01 - Notebook Building Blocks
       url: landscape/CH-05/CH-05-01
@@ -75,7 +75,7 @@
   - title: CH-06 - Reaching Beyond SQL with PowerShell and Python
     url: landscape/CH-06/readme
     not_numbered: true
-    expand_sections: false
+    expand_sections: true
     sections:
     - title: CH-06-01 - A New Home for PowerShell
       url: landscape/CH-06/CH-06-01
@@ -88,7 +88,7 @@
   - title: CH-07 - Source Control by Design
     url: landscape/CH-07/readme
     not_numbered: true
-    expand_sections: false
+    expand_sections: true
     sections:
     - title: CH-07-01 - What is Considered ‘Source’ Code?
       url: landscape/CH-07/CH-07-01
@@ -99,7 +99,7 @@
   - title: CH-08 - Free and Easy Extensions
     url: landscape/CH-08/readme
     not_numbered: true
-    expand_sections: false
+    expand_sections: true
     sections:
     - title: CH-08-01 - Installing and Managing your Extensions
       url: landscape/CH-08/CH-08-01
@@ -120,7 +120,7 @@
   - title: CH-09 - Creating Snippets
     url: deep_dive/CH-09/readme
     not_numbered: true
-    expand_sections: false
+    expand_sections: true
     sections:
     - title: CH-09-01 - Creating and Managing Snippets
       url: deep_dive/CH-09/CH-09-01
@@ -131,7 +131,7 @@
   - title: CH-10 - Customizing your Dashboards
     url: deep_dive/CH-10/readme
     not_numbered: true
-    expand_sections: false
+    expand_sections: true
     sections:
     - title: CH-10-01 - Creating, Using, and Managing Connections
       url: deep_dive/CH-10/CH-10-01
@@ -142,7 +142,7 @@
   - title: CH-11 - The Power and Versatility of Notebooks
     url: deep_dive/CH-11/readme
     not_numbered: true
-    expand_sections: false
+    expand_sections: true
     sections:
     - title: CH-11-01 - Feels Like a Book, Built on Json
       url: deep_dive/CH-11/CH-11-01
@@ -155,7 +155,7 @@
   - title: CH-12 - The Fully Integrated Terminal Window
     url: deep_dive/CH-12/readme
     not_numbered: true
-    expand_sections: false
+    expand_sections: true
     sections:
     - title: CH-12-01 - Multi-Session and Multi-Lingual
       url: deep_dive/CH-12/CH-12-01
@@ -166,7 +166,7 @@
   - title: CH-13 - Protect, Version, and Collaborate with Git
     url: deep_dive/CH-13/readme
     not_numbered: true
-    expand_sections: false
+    expand_sections: true
     sections:
     - title: CH-13-01 - Start with a GitHub account
       url: deep_dive/CH-13/CH-13-01
@@ -177,7 +177,7 @@
   - title: CH-14 - Using Python to Extend Your Platform Reach
     url: deep_dive/CH-14/readme
     not_numbered: true
-    expand_sections: false
+    expand_sections: true
     sections:
     - title: CH-14-01 - The snowflake CLI
       url: deep_dive/CH-14/CH-14-01
@@ -188,7 +188,7 @@
   - title: CH-15 - Using PowerShell to Integrate with Azure Data Factory
     url: deep_dive/CH-15/readme
     not_numbered: true
-    expand_sections: false
+    expand_sections: true
     sections:
     - title: CH-15-01 - The AZ PowerShell Module
       url: deep_dive/CH-15/CH-15-01
@@ -201,7 +201,7 @@
   - title: CH-16 - Building an Official Extension
     url: deep_dive/CH-16/readme
     not_numbered: true
-    expand_sections: false
+    expand_sections: true
     sections:
     - title: CH-16-01 - Installing Prerequisites - Node.js and Visual Studio Code
       url: deep_dive/CH-16/CH-16-01
@@ -219,7 +219,7 @@
   - title: CH-17 - Application Integration with ADS 
     url: case_study/CH-17/readme
     not_numbered: true
-    expand_sections: false
+    expand_sections: true
     sections:
     - title: CH-17-01 - Introduction to the Application
       url: case_study/CH-17/CH-17-01

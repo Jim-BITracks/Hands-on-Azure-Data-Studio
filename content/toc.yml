@@ -1,5 +1,235 @@
-- title: WelcomeYou
-  url: /readme
+- title: Welcome
+  url: readme
   not_numbered: true
+- title: Search
+  search: true
+  
+- title: Landscape 
+  url: landscape/readme
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: CH-01 - Open Source, Cross-Platform, Multi-Database
+    url: landscape/CH-01/readme
+    not_numbered: true
+    expand_sections: false
+    sections:
+    - title: CH-01-01 - What “Open Source” means for this new breed of Microsoft Software
+      url: landscape/CH-01/CH-01-01
+    - title: CH-01-02 - The new options provided by “Cross-Platform” computings
+      url: landscape/CH-01/CH-01-02
+    - title: CH-01-03 - What “Multi-Database” means for your SQL experience
+      url: landscape/CH-01/CH-01-03
+  - title: CH-02 - Everything Starts with a Connection
+    url: landscape/CH-02/readme
+    not_numbered: true
+    expand_sections: false
+    sections:
+    - title: CH-02-01 - Creating, Using, and Managing Connections
+      url: landscape/CH-02/CH-02-01
+    - title: CH-02-02 - Grouping and Color Coding your Connections
+      url: landscape/CH-02/CH-02-02
+    - title: CH-02-03 - Central Management Servers Extension
+      url: landscape/CH-02/CH-02-03
+  - title: CH-03 - SQL Editing Reimagined
+    url: landscape/CH-03/readme
+    not_numbered: true
+    expand_sections: false
+    sections:
+    - title: CH-03-01 - Entering Queries - IntelliSense, Snippets and Object Definitions
+      url: landscape/CH-03/CH-03-01
+    - title: CH-03-02 - Saving Queries and Snippets
+      url: landscape/CH-03/CH-03-02
+    - title: CH-03-03 - Top Down View with Minimap
+      url: landscape/CH-03/CH-03-03
+    - title: CH-03-04 - SQL Queries via the Command Terminal
+      url: landscape/CH-03/CH-03-04  
+  - title: CH-04 - Visualizing and Exporting Your Queries
+    url: landscape/CH-04/readme
+    not_numbered: true
+    expand_sections: false
+    sections:
+    - title: CH-04-01 - Anatomy of the Results Pane
+      url: landscape/CH-04/CH-04-01
+    - title: CH-04-02 - Querying for Easy Visuals
+      url: landscape/CH-04/CH-04-02
+    - title: CH-04-03 - Getting Pixel Perfect
+      url: landscape/CH-04/CH-04-03
+    - title: CH-04-04 - Sharing your Results
+      url: landscape/CH-04/CH-04-04
+  - title: CH-05 - Getting Things Done with Notebooks
+    url: landscape/CH-05/readme
+    not_numbered: true
+    expand_sections: false
+    sections:
+    - title: CH-05-01 - Notebook Building Blocks
+      url: landscape/CH-05/CH-05-01
+    - title: CH-05-02 - The SQL Kernel Experience
+      url: landscape/CH-05/CH-05-02
+    - title: CH-05-03 - Additional Kernel Options
+      url: landscape/CH-05/CH-05-03
+    - title: CH-05-04 - Innovative Possibilities with Notebooks
+      url: landscape/CH-05/CH-05-04
+    - title: CH-05-05 - Sharing your Notebooks and Narratives
+      url: landscape/CH-05/CH-05-05  
+  - title: CH-06 - Reaching Beyond SQL with PowerShell and Python
+    url: landscape/CH-06/readme
+    not_numbered: true
+    expand_sections: false
+    sections:
+    - title: CH-06-01 - A New Home for PowerShell
+      url: landscape/CH-06/CH-06-01
+    - title: CH-06-02 - Contributions from the Community – PowerShell’s dbatools
+      url: landscape/CH-06/CH-06-02
+    - title: CH-06-03 - Python as your Portal to More Databases
+      url: landscape/CH-06/CH-06-03
+    - title: CH-06-04 - Python and Machine Learning
+      url: landscape/CH-06/CH-06-04  
+  - title: CH-07 - Source Control by Design
+    url: landscape/CH-07/readme
+    not_numbered: true
+    expand_sections: false
+    sections:
+    - title: CH-07-01 - What is Considered ‘Source’ Code?
+      url: landscape/CH-07/CH-07-01
+    - title: CH-07-02 - What are the Options with ADS Source Control?
+      url: landscape/CH-07/CH-07-02
+    - title: CH-07-03 - Configuring your Machine for Git
+      url: landscape/CH-07/CH-07-03
+  - title: CH-08 - Free and Easy Extensions
+    url: landscape/CH-08/readme
+    not_numbered: true
+    expand_sections: false
+    sections:
+    - title: CH-08-01 - Installing and Managing your Extensions
+      url: landscape/CH-08/CH-08-01
+    - title: CH-08-02 - ‘Sand Dance’ for Azure Data Studio
+      url: landscape/CH-08/CH-08-02
+    - title: CH-08-03 - SQL Server Schema Compare
+      url: landscape/CH-08/CH-08-03
+    - title: CH-08-04 - PowerShell for ADS
+      url: landscape/CH-08/CH-08-04
+    - title: CH-08-05 - Redgate SQL Search
+      url: landscape/CH-08/CH-08-05   
 
-
+- title: Deep Dives 
+  url: deep_dive/readme
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: CH-09 - Creating Snippets
+    url: deep_dive/CH-09/readme
+    not_numbered: true
+    expand_sections: false
+    sections:
+    - title: CH-09-01 - Creating and Managing Snippets
+      url: deep_dive/CH-09/CH-09-01
+    - title: CH-09-02 - Options for Parameters and Drop-downs
+      url: deep_dive/CH-09/CH-09-02
+    - title: CH-09-03 - Management of Verbose and Numerous Snippets
+      url: deep_dive/CH-09/CH-09-03
+  - title: CH-10 - Customizing your Dashboards
+    url: deep_dive/CH-10/readme
+    not_numbered: true
+    expand_sections: false
+    sections:
+    - title: CH-10-01 - Creating, Using, and Managing Connections
+      url: deep_dive/CH-10/CH-10-01
+    - title: CH-10-02 - Grouping and Color Coding your Connections
+      url: deep_dive/CH-10/CH-10-02
+    - title: CH-10-03 - Central Management Servers Extension
+      url: deep_dive/CH-10/CH-10-03
+  - title: CH-11 - The Power and Versatility of Notebooks
+    url: deep_dive/CH-11/readme
+    not_numbered: true
+    expand_sections: false
+    sections:
+    - title: CH-11-01 - Feels Like a Book, Built on Json
+      url: deep_dive/CH-11/CH-11-01
+    - title: CH-11-02 - Organizing, Navigating, Sharing and Trusting
+      url: deep_dive/CH-11/CH-11-02
+    - title: CH-11-03 - Getting at Big Data with Spark
+      url: deep_dive/CH-11/CH-11-03
+    - title: CH-11-04 - Notebooks creating Notebooks – Say What?
+      url: deep_dive/CH-11/CH-11-04  
+  - title: CH-12 - The Fully Integrated Terminal Window
+    url: deep_dive/CH-12/readme
+    not_numbered: true
+    expand_sections: false
+    sections:
+    - title: CH-12-01 - Multi-Session and Multi-Lingual
+      url: deep_dive/CH-12/CH-12-01
+    - title: CH-12-02 - Key Bindings – Mouse Optional
+      url: deep_dive/CH-12/CH-12-02
+    - title: CH-12-03 - PowerShell Core and Living Cross-Platform
+      url: deep_dive/CH-12/CH-12-03
+  - title: CH-13 - Protect, Version, and Collaborate with Git
+    url: deep_dive/CH-13/readme
+    not_numbered: true
+    expand_sections: false
+    sections:
+    - title: CH-13-01 - Start with a GitHub account
+      url: deep_dive/CH-13/CH-13-01
+    - title: CH-13-02 - Source Repositories, Cloning and Sharing
+      url: deep_dive/CH-13/CH-13-02
+    - title: CH-13-03 - Stage, Commit, and Sync
+      url: deep_dive/CH-13/CH-13-03
+  - title: CH-14 - Using Python to Extend Your Platform Reach
+    url: deep_dive/CH-14/readme
+    not_numbered: true
+    expand_sections: false
+    sections:
+    - title: CH-14-01 - The snowflake CLI
+      url: deep_dive/CH-14/CH-14-01
+    - title: CH-14-02 - Python and the first-class snowflake connector
+      url: deep_dive/CH-14/CH-14-02
+    - title: CH-14-03 - Loading and Querying snowflake
+      url: deep_dive/CH-14/CH-14-03
+  - title: CH-15 - Using PowerShell to Integrate with Azure Data Factory
+    url: deep_dive/CH-15/readme
+    not_numbered: true
+    expand_sections: false
+    sections:
+    - title: CH-15-01 - The AZ PowerShell Module
+      url: deep_dive/CH-15/CH-15-01
+    - title: CH-15-02 - Getting connected in Azure Data Factory
+      url: deep_dive/CH-15/CH-15-02
+    - title: CH-15-03 - Working with Datasets
+      url: deep_dive/CH-15/CH-15-03
+    - title: CH-15-04 - Invoking a Pipeline to Copy Data
+      url: deep_dive/CH-15/CH-15-04
+  - title: CH-16 - Building an Official Extension
+    url: deep_dive/CH-16/readme
+    not_numbered: true
+    expand_sections: false
+    sections:
+    - title: CH-16-01 - Installing Prerequisites - Node.js and Visual Studio Code
+      url: deep_dive/CH-16/CH-16-01
+    - title: CH-16-02 - Choosing your Type – Extension Categories
+      url: deep_dive/CH-16/CH-16-02
+    - title: CH-16-03 - Testing, Creating and Sharing your Extension
+      url: deep_dive/CH-16/CH-16-03
+    - title: CH-16-04 - Expanding your vision
+      url: deep_dive/CH-16/CH-16-04 
+- title: Case Study
+  url: case_study/readme
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: CH-17 - Application Integration with ADS 
+    url: case_study/CH-17/readme
+    not_numbered: true
+    expand_sections: false
+    sections:
+    - title: CH-17-01 - Introduction to the Application
+      url: case_study/CH-17/CH-17-01
+    - title: CH-17-02 - The Anatomy of an ADS Extension
+      url: case_study/CH-17/CH-17-02
+    - title: CH-17-03 - Redefining Agile
+      url: case_study/CH-17/CH-17-03
+    - title: CH-17-04 - Leveraging all the SQL Editor Features
+      url: case_study/CH-17/CH-17-04
+    - title: CH-17-05 - Integrating with Custom Forms
+      url: case_study/CH-17/CH-17-05
+    - title: CH-17-06 - Possibilities when using the Integrated Terminal
+      url: case_study/CH-17/CH-17-06
