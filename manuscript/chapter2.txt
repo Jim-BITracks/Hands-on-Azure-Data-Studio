@@ -1,4 +1,4 @@
-# Chapter Two
+# Chapter 2
 
 Here are some quick Markdown examples to get you started.
 

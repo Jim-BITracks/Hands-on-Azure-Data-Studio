@@ -1,5 +1,5 @@
 {sample: true}
-# Chapter One
+# Chapter 1
 
 This is an example chapter of a Leanpub book.  To start writing your book, simply replace the contents of this text box with your first chapter.
 
