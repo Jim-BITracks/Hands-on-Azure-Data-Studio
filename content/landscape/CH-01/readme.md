@@ -7,5 +7,5 @@ I’ve had many strange looks after mentioning “Open Source” and “Microsof
 ### Notebooks in this chapter:
 
 - [Chapter 1-1 - What “Open Source” means for this new breed of Microsoft Software](CH-01-01.ipynb)
-- [Chapter 1-2 - The new options provided by “Cross-Platform” computings](CH-01-02.ipynb)
+- [Chapter 1-2 - The new options provided by “Cross-Platform” computing](CH-01-02.ipynb)
 - [Chapter 1-3 - What “Multi-Database” means for your SQL experience](CH-01-03.ipynb)
