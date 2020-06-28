@@ -1,7 +1,7 @@
 # Chapter 1 - Open Source, Cross-Platform, Multi-Database
 I have had many strange looks after mentioning “Open Source” and “Microsoft” within the same sentence. Even people not overly tech savvy can elicit a similar response, which speaks volumes to Microsoft's history and reputation. This is also reflected in their non-negotiable, and generally incomprehensible licensing agreements. And yet, if you are looking for a common theme in the pages to follow, “Open Source” is exactly what you will find in this Microsoft product. 
 
-Even better, this is only the beginning when it comes to Azure Data Studio (ADS), which includes both Cross-Platform and Multi-Database capabilities. This is clearly not the Microsoft from earlier years, including the era of Steve Ballmer who once referred to the free software Linux kernel as ‘communism’[^1]. (Full disclosure: Mr. Ballmer does have a new and fresh perspective on the “open source” topic today).
+Even better, this is only the beginning when it comes to Azure Data Studio (ADS), which includes both Cross-Platform and Multi-Database capabilities. This is clearly not the Microsoft from earlier years, including the era of Steve Ballmer who once referred to the free software Linux kernel as ‘communism’[^ballmer]. (Full disclosure: Mr. Ballmer does have a new and fresh perspective on the “open source” topic today).
 
 ## What “Open Source” means for this new breed of Microsoft Software
 Azure Data Studio provides for a happy convergence of ‘free’, ‘powerful’, and ‘open source’. In this world, ‘free’ and ‘powerful’ can often be a winning combination, as demonstrated with popular desktop products such as Notepad++ and web-based applications like Gmail. Adding ‘open source’ to a product is even a greater ‘win’ and has to potential to shift an entire software market.
@@ -16,3 +16,5 @@ The open source concept is a bit like receiving a free video camera along with s
 This is the new world of Microsoft open source. Even though you may never want, need, or have time to plow through the ADS “source code”, the mere fact that you can is critically important for the product and its forward potential.
 
 Microsoft’s licensing for Azure Data Studio is also a departure from the past, consisting of just two ‘readable’ paragraphs. The text has very liberal license terms for ADS  , granting even sublicensing rights when you are using ADS with your affiliates and/or vendors, while they are performing work on your behalf.
+
+[^ballmer]: https://www.theregister.co.uk/2000/07/31/ms_ballmer_linux_is_communism
