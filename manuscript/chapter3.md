@@ -6,7 +6,7 @@ This is accomplished in large part by focusing directly on keyboard interactions
 ## IntelliSense, Snippets and Object Definitions
 To get started with entering SQL queries, you can either click on ‘New query’ from the Welcome page, or for more context specificity, right click on your target Database in the ‘Side Bar’, and choose ‘New Query’ as shown in figure 3-1:
 
-![Figure 3-1. Create a New SQL Query](ch03_figures\Figure_03-01.png)
+![Figure 3-1. Create a New SQL Query](Figure_03_01.png)
 
 This will open a blank editing window where you can simply start typing. As you do type, each keystroke may pop-up with IntelliSense suggestions as shown in the Figure 3-2. Notice that the **FROM** keyword is highlighted in the sorted pop-up list indicating that you only need to hit the ‘tab’ key to accept the substitution.
 
