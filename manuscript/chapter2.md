@@ -115,7 +115,9 @@ Azure Data Studio has an extension called ‘Central Management Servers’ which
 
 What sets this feature apart from standard connection groupings in ADS is the ability to *execute a single command* on a ‘server group’. For example, if you wanted to execute the SQL command:
 
-    SELECT @@VERSION
+```sql
+SELECT @@VERSION
+```
 
 on multiple servers, you could run this query against an entire ‘Server Group’. Figure 2-17 demonstrates this capability when running a query against the ‘OnPremise’ server group:
 
