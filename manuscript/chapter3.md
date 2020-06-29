@@ -74,3 +74,36 @@ In the case you need to create a New folder, you can still use the ‘Open Folde
 Once you have selected your ‘current’ folder context, queries and scripts that you later save will be placed in this folder by default. The File icon in the ‘Activity Bar’ as shown in Figure 3-10 provides the name of your *current* folder context. 
 
 ![Figure 3-10. Current Folder Context](Figure_03-10.png)
+
+Keep in mind that your working folders could later be tied to GitHub or other source control system. Consequently, your folder organization and naming conventions should be as intuitive as possible. Even if you are not sharing with others, you may find that GitHub is a convenient repository to store your personal queries and scripts. This is both for safe keeping, as well as *accessibility* in the event you are away from your primary workstation (see Chapter 13 for a ‘Deep Dive’ into GitHub and ADS).
+
+Now that we have a ‘current’ folder, let us tweak and then save our earlier INFORMATION_SCHEMA.COLUMNS query into the file system. Following is a bit more *generic* version of the earlier query:
+
+```sql
+select * from INFORMATION_SCHEMA.COLUMNS where COLUMN_NAME = 'column_name'
+```
+
+As you might have guessed, pressing CTRL + S will open the ‘Save’ dialog box, or you could use File, Save, from the ‘Menu Bar’. In either case you will receive the dialog box shown in figure 3-11 where you can name your file-based query:
+
+![Figure 3-11. Save Query File](Figure_03-11.png)
+
+Ok, saving a file is admittedly a pretty basic user action. However, what if you would like to save this query as a reusable *ADS Snippet*? Well for starters we will want to make another tweak to this script which will invoke ‘variable substitution’ logic on re-use. This is achieved by replacing '**column_name**' with the parameter syntax **${1:ColumnName}**:
+
+```sql
+select * from INFORMATION_SCHEMA.COLUMNS 
+where COLUMN_NAME = '${1:ColumnName}'
+```
+Note: for simpler snippet coding, we will place this query on a single line in the full json snippet syntax: 
+```json
+ { "Information Schema for Columns": {
+  "prefix": "InfoSchemaColumns",
+  "body": "select * from INFORMATION_SCHEMA.COLUMNS where COLUMN_NAME = '${1:ColumnName}'" } }
+```
+To break down the above json code, the first line containing the literal "Information Schema for Columns " is the snippet *name*. The next line contains the *prefix* “InfoSchemaColumns” and will cause this snippet to surface based on similar keystrokes made in the SQL editor. These keystrokes do not necessarily need to be keyed exactly as shown in the *prefix*. For example, the snippet above, would be found by just typing ‘infcol’. The third line is the snippet code itself, which will be placed directly in the editor window upon pop-up selection.
+
+> Note: we will go into much more detail on *snippets* in Chapter 09.
+
+To save the snippet, press CTRL+SHIFT+P (or from the ‘Menu Bar’ click on View, Command Palette), enter ‘snippet’ in the search box, and select “Preferences: Configure User Snippets” as shown in figure 3-12:
+
+![Figure 3-12. Configure User Snippets](Figure_03-12.png)
+
