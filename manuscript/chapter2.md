@@ -105,9 +105,9 @@ Once the color mode is set, your query editor windows will reflect its group ‘
 
 ![Figure 2-15. Sql: Color Coded SQL Editor Windows](ch02_figures\Figure_02-15.png)
 
-To help you get started with creating and organizing connections, we have created an associated YouTube video: 
+To help you get started with creating and organizing connections, we have created an associated YouTube content: 
 
-[Server Groups](https://youtu.be/lJRg4SzmEU8)
+[**Video:** Server Groups](https://youtu.be/lJRg4SzmEU8)
 
 For targeted viewing, the ‘grouping’ of connections starts at minute 03:35, and the ‘color coding’ begins at 04:45.
 
