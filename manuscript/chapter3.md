@@ -119,6 +119,69 @@ Notice the above window (outlined in red) also provides the physical location of
 
 ![Figure 3-15. Using IntelliSense to Find a Snippet](Figure_03_15.png)
 
+Selecting this snippet will produce the SQL code in your editor window, with the cursor highlighting the field (in this case **ColumnName**) allowing you to replace with the actual column name you are examining. Figure 3-16 displays the snippet as placed in the editor window:
 
+![Figure 3-16. Variable Highlighting for a Snippet](Figure_03_16.png)
+
+As mentioned earlier, we have much more content to come later in the book on ‘ADS Snippets’, which by the way can apply to *any* of the Azure Data Studio supported languages, including PowerShell and Python.
+
+## Top Down View with Minimap
+Life at times can be detailed and complex. The same can be true of ‘SQL code’, or for that matter ‘code’ written in any language. Most database developers have written, reviewed, or maintained SQL code that exceeds hundreds, or perhaps even a thousand lines. While ‘big code’ can be intimidating, ADS has a *Minimap* feature that can at least ease the pain of working with large SQL scripts.
+
+> For the following example you can use any SQL code sample. If more lines are needed for visual effect, just use copy/paste to multiply your lines of SQL code.
+
+To get started with Minimap, you will first want to turn this feature on via the ‘Command Palette” by pressing CRTL+SHIFT+P, entering ‘minimap’, and selecting “View: Toggle Minimap” as shown in figure 3-17:
+
+![Figure 3-17. Toggle Minimap On](Figure_03_17.png)
+
+With any SQL script in place, and with Minimap turned on, you will see a birds-eye outline of your code on the right side of the editor window. Your current ‘cursor position’ will be highlighted as a thin blue line as displayed in figure 3-18:
+
+![Figure 3-18. SQL Editing with Minimap Outline](Figure_03_18.png)
+
+Syntax error are reflected in the Minimap with red highlighting as shown in figure 3-19. This is helpful as it gives immediate feedback, as well as proximity of the error, even if the actual (readable) SQL code located somewhere ‘off screen’.
+
+![Figure 3-19. Minimap Syntax Errors](Figure_03_19.png)
+
+Another nice feature of Minimap is the ability to view a large *selection* of your code, even spanning hundreds of lines. This reduces the excess ‘scrolling’ otherwise needed to visualize the begin and end of your selection. Figure 3-20 demonstrates this capability, albeit on a smaller scale.
+
+![Figure 3-20. Minimap Code Selection](Figure_03_20.png)
+
+Finally, Minimap provides a convenient way to visualize *all* locations containing the text you are searching for in the script. Figure 3-21 illustrates the result of searching for a table called **elt.projects** within a script.
+
+![Figure 3-21. Minimap Code Selection](Figure_03_21.png)
+
+So, the next time you find yourself editing a painfully large block of SQL code, remember to ‘toggle on’ Minimap to make your task at least a little more manageable.
+
+## SQL Queries via the Command Terminal
+
+An interesting capability of Azure Data Studio is the integration of a standard SQL editor with other language options. These language options are available by using *Notebooks* (introduced beginning in Chapter 5), as well as by the integrated *Terminal* window which we will introduce next.
+
+To open the *Terminal* window, press CTRL+` (backtick), or when using the ‘Menu bar’, select View, Terminal. Once opened, you will see the Terminal pane on the bottom right section of the ADS application as shown in figure 3-22:
+
+![Figure 3-22. ADS Terminal Window](Figure_03_22.png)
+
+Notice the Terminal opens in the context of the ‘Windows Command Prompt’ which also inherits the *Folder* context that was previously opened in ADS (in our case it was named “Chapter 03 Queries”). Although we could query SQL via the Windows Command Prompt, we will have more options when using PowerShell. To switch the context to PowerShell, you can simply type ‘PowerShell’ into the Terminal window to get the results displayed in Figure 3-23:
+
+![Figure 3-23. PowerShell Terminal Window](Figure_03_23.png)
+
+> Note: In Chapter 15 we will use the new “PowerShell Integrated Console” activated by using the ‘Activity Bar’ PowerShell Icon.
+
+To query your ‘local instance’ of SQL Server, enter the following command into the PowerShell command prompt
+```powershell
+Invoke-Sqlcmd -Query "select * from INFORMATION_SCHEMA.TABLES" -ServerInstance "localhost"
+```
+And hit enter. You should see the SQL query results shown in figure 3-24:
+
+![Figure 3-24. Running a SQL Query in PowerShell](Figure_03_24.png)
+
+Since we are in PowerShell, we have many other options for our result set, such as *exporting* as a CSV file. This can be accomplished by running the following PowerShell script:
+```powershell
+Invoke-Sqlcmd -Query "select * from INFORMATION_SCHEMA.TABLES" -ServerInstance "localhost" | export-csv -Delimiter ',' -Path "tables.csv" -NoTypeInformation
+```
+When running this PowerShell script in the Terminal, the prior results are now are *piped* to an Operating System file called ‘tables.csv’. To verify that the file was created, click on the ‘Explorer’ Icon in the ‘Activity Bar’. The file should now be visible in the ‘Side Bar’ as shown in figure 3-25:
+
+![Figure 3-25. Exporting a Query using PowerShell](Figure_03_25.png)
+
+This is a simple but instructive example of the ‘synthesis’ of traditional SQL queries, with the extended language support built into Azure Data Studio. This illustration leveraged the ADS Terminal window running PowerShell, that leveraged a SQL script. But read on as deeper and even surprising capabilities lie ahead when fusing SQL code with other ADS supported languages!
 
 [^sniplocation]: This file could be updated using any editor, or json code generator
