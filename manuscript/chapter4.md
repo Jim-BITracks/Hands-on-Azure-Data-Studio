@@ -119,9 +119,13 @@ Next click on the ‘Visualizer’ icon outlined in red above. A new main tab wi
 
 ![Figure 4-13. SandDance (Extension) Chart](Figure_04_13.png)
 
+Next, change the chart rendering to ‘3D’ by clicking on the cube icon shown above. This provides a ‘Z Axis’ which we will set to **ACCIDENTS**. To reproduce the SandDance visual shown below in Figure 4-14, set the ‘X Axis’ to **BOROUGH**, ‘Color by’ **MONTH_NAME**, and ‘Sort by: **ACCIDENTS**.
+
+![Figure 4-14. SandDance with Three Dimensional Visual](Figure_04_14.png)
+
 This visualization reveals that Brooklyn edges out Queens for having the greatest number of car accidents (from July 2012 through Feb 2020). Another thing disclosed above is the worst month for car accidents in NYC is January, probably due to snow and ice. On the other hand, the safest driving month for all boroughs is April. Besides being a slightly shorter month (30 days), there must be something else about the month of ‘April’ to account for a significant dip in car accidents.
 
-Perhaps we will find out more? as we delve deeper into our car-crash DataMart in the next chapter, which is on my *favorite* ADS feature: Juypter ‘Notebooks’.
+Perhaps we will find out more as we delve deeper into our car-crash DataMart in the next chapter, which will place us on my *favorite* ADS feature: Juypter ‘Notebooks’.
 
 
 [^opendata]: https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/data
