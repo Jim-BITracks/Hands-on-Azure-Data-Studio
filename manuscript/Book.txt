@@ -3,4 +3,7 @@ chapter_02.md
 chapter_03.md
 chapter_04.md
 chapter_05.md
+chapter_06.md
+chapter_07.md
+chapter_08.md
 Appendix_A.md
