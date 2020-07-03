@@ -2,7 +2,7 @@
 
 ## SQL Editing Reimagined
 
-As database professionals, we tend to spend a great deal of time in coding SQL statements. ADS provides a rich environment for this universal database task, encouraging bug-free code, reusability, parametrization, and more.
+Database developers typically spend a great deal of time creating and editing SQL queries, so it only makes sense to make this experience as helpful, convenient and productive as possible. Azure Data Studio has truly reimagined how developers interact with SQL coding, and for that matter, all the languages supported on the platform. [Full text available at leanpub.com](https://leanpub.com/hands-on-ads)
 
 ### Notebooks in this chapter:
 
