@@ -2,7 +2,7 @@
 
 ## Everything Starts with a Connection
 
-Most of what you do in Azure Data Studio will start with a connection. ADS has some very helpful features for managing connections, when compared to its older sibling: SQL Server Management Studio.
+Most of what you do in Azure Data Studio, like most data engineering tools, will begin with a *connection*. ADS has some very helpful features for managing connections, whether your data is on premise, in the cloud, in a container, or even located in a file system. [Full text available at leanpub.com](https://leanpub.com/hands-on-ads)
 
 ### Notebooks in this chapter:
 
