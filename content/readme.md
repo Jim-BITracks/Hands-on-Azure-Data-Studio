@@ -1,9 +1,9 @@
 # Hands-on Azure Data Studio
 ## Using Microsoft’s new Open Architecture for Data
 
-This collection of Jupyter Notebooks (.ipynb) provides code supplements for the book: Hands=on Azure Data Studio.
+This collection of Jupyter Notebooks (.ipynb) provides code supplements for the book: Hands-on Azure Data Studio.
 
-NOTE: Currently the intra book hyperlinks do not work if this Jupyter Book is hosted on a file share. To use the intra book hyperlinks please copy the book locally.
+NOTE: The intra book hyperlinks may not work if these Jupyter Books are hosted on a file share. To use the intra book hyperlinks please copy the book to a local folder.
 
 ## Parts
 
