@@ -1,8 +1,8 @@
-# Case Study
+# Book III - ADS Extensions
 
-This section will be the deepest of our deep dives. We set out to try, discover, learn, apply, and then rinse/repeat. Here is what we have learned so far about Azure Data Studio in the real world of applications.
+Book III delves into the world of "ADS Extensions". We set out to discover, learn, apply, and ultimately deploy an Extension into the Azure Data Studio 'Marketplace'.
 
 [Home](../readme.md)
 
-## Notebooks in Part III
-- [Chapter 17 - Application Integration with ADS](CH-17/readme.md)
+## Jupyter Notebooks for Book III
+- (TBD)
