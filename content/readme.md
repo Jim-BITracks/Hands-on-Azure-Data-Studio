@@ -7,6 +7,6 @@ NOTE: The intra book hyperlinks may not work if these Jupyter Books are hosted o
 
 ## Books
 
-1. [Book I](landscape/readme.md) - Notebooks for "Getting Started" with Azure Data Studio
-1. [Book II](deep_dive/readme.md) - Notebooks for Azure Data Studio "Deep Dives"
-1. [Book III](case_study/readme.md) - Notebooks for Extensions on Azure Data Studio (Case Study)
+- [Book I](landscape/readme.md) - Notebooks for "Getting Started" with Azure Data Studio
+- [Book II](deep_dive/readme.md) - Notebooks for the Azure Data Studio "Deep Dives"
+- [Book III](case_study/readme.md) - Notebooks for Creating Extensions on Azure Data Studio
