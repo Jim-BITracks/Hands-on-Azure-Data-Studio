@@ -28,6 +28,8 @@ SELECT @@VERSION
 
 ## Links
 
+[**Video:** Creating Connections](https://youtu.be/lJRg4SzmEU8)
+
 [**Video:** Server Groups](https://youtu.be/lJRg4SzmEU8)
 
 [Microsoft’s Azure Portal](https://azure.microsoft.com)
