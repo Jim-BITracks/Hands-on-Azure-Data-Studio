@@ -21,65 +21,19 @@
   - title: CH-04 - Visualizing and Exporting Your Queries
     url: landscape/CH-04/readme
     not_numbered: true
-    expand_sections: true
-    sections:
-    - title: CH-04-01 - Anatomy of the Results Pane
-      url: landscape/CH-04/CH-04-01
-    - title: CH-04-02 - Querying for Easy Visuals
-      url: landscape/CH-04/CH-04-02
-    - title: CH-04-03 - Getting Pixel Perfect
-      url: landscape/CH-04/CH-04-03
   - title: CH-05 - Getting Things Done with Notebooks
     url: landscape/CH-05/readme
     not_numbered: true
     expand_sections: true
     sections:
     - title: CH-05-01 - Notebook Building Blocks
-      url: landscape/CH-05/CH-05-01
-    - title: CH-05-02 - The SQL Kernel Experience
-      url: landscape/CH-05/CH-05-02
-    - title: CH-05-03 - Additional Kernel Options
-      url: landscape/CH-05/CH-05-03
-    - title: CH-05-04 - Innovative Possibilities with Notebooks
-      url: landscape/CH-05/CH-05-04
-    - title: CH-05-05 - Sharing your Notebooks and Narratives
-      url: landscape/CH-05/CH-05-05  
+      url: landscape/CH-05/CH-05-01 
   - title: CH-06 - Reaching Beyond SQL with PowerShell and Python
     url: landscape/CH-06/readme
     not_numbered: true
-    expand_sections: true
-    sections:
-    - title: CH-06-01 - A New Home for PowerShell
-      url: landscape/CH-06/CH-06-01
-    - title: CH-06-02 - Contributions from the Community – PowerShell’s dbatools
-      url: landscape/CH-06/CH-06-02
-    - title: CH-06-03 - Python as your Portal to More Databases
-      url: landscape/CH-06/CH-06-03
-    - title: CH-06-04 - Python and Machine Learning
-      url: landscape/CH-06/CH-06-04  
   - title: CH-07 - Source Control by Design
     url: landscape/CH-07/readme
     not_numbered: true
-    expand_sections: true
-    sections:
-    - title: CH-07-01 - What is Considered ‘Source’ Code?
-      url: landscape/CH-07/CH-07-01
-    - title: CH-07-02 - What are the Options with ADS Source Control?
-      url: landscape/CH-07/CH-07-02
-    - title: CH-07-03 - Configuring your Machine for Git
-      url: landscape/CH-07/CH-07-03
   - title: CH-08 - Free and Easy Extensions
     url: landscape/CH-08/readme
     not_numbered: true
-    expand_sections: true
-    sections:
-    - title: CH-08-01 - Installing and Managing your Extensions
-      url: landscape/CH-08/CH-08-01
-    - title: CH-08-02 - ‘Sand Dance’ for Azure Data Studio
-      url: landscape/CH-08/CH-08-02
-    - title: CH-08-03 - SQL Server Schema Compare
-      url: landscape/CH-08/CH-08-03
-    - title: CH-08-04 - PowerShell for ADS
-      url: landscape/CH-08/CH-08-04
-    - title: CH-08-05 - Redgate SQL Search
-      url: landscape/CH-08/CH-08-05   
