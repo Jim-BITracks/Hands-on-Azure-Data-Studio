@@ -3,7 +3,7 @@
 # Chapter 1 - Open Source, Cross-Platform, Multi-Database
 I have had many strange looks after mentioning “Open Source” and “Microsoft” within the same sentence. Even people not overly tech savvy may elicit a similar response, which speaks volumes to Microsoft's history and reputation. This can also be reflected in many of their non-negotiable, and generally incomprehensible licensing agreements. And yet, if you are looking for a common theme in the pages to follow, “Open Source” is exactly what you will find in this Microsoft product. [Full text available at leanpub.com](https://leanpub.com/hands-on-ads)
 
-> No code samples or notebooks included in this chapter
+> No code samples or notebooks are included in this chapter
 
 ## Outline
 
