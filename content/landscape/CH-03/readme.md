@@ -4,6 +4,8 @@
 Database developers typically spend a great deal of time creating and editing SQL queries, so it only makes sense to make this experience as helpful, convenient and productive as possible. Azure Data Studio has truly reimagined how developers interact with SQL coding, and for that matter, all the languages supported on the platform. [Full text available at leanpub.com](https://leanpub.com/hands-on-ads)
 
 > **Chapter Headings and Code Samples**
+>
+> (No notebooks are included in this chapter)
 
 ## IntelliSense, Snippets and Object Definitions
 

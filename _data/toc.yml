@@ -18,16 +18,6 @@
   - title: CH-03 - SQL Editing Reimagined
     url: landscape/CH-03/readme
     not_numbered: true
-    expand_sections: true
-    sections:
-    - title: CH-03-01 - Entering Queries - IntelliSense, Snippets and Object Definitions
-      url: landscape/CH-03/CH-03-01
-    - title: CH-03-02 - Saving Queries and Snippets
-      url: landscape/CH-03/CH-03-02
-    - title: CH-03-03 - Top Down View with Minimap
-      url: landscape/CH-03/CH-03-03
-    - title: CH-03-04 - SQL Queries via the Command Terminal
-      url: landscape/CH-03/CH-03-04  
   - title: CH-04 - Visualizing and Exporting Your Queries
     url: landscape/CH-04/readme
     not_numbered: true
