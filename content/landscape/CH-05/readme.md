@@ -4,7 +4,7 @@
 
 Notebooks are a sleeping giant, poised to change about everything we do with data, analysis, and even related processing. The ability to store Rich Text, Queries and Results in a tidy reusable and runnable package is groundbreaking enough. However, the broader impact of what can be accomplished using Jupyter Notebooks is truly amazing. [Full text available at leanpub.com](https://leanpub.com/hands-on-ads)
 
-## **Planned Outline for this chapter:**
+# ***Planned Content for this chapter***
 
 - Chapter 5-1 - Notebook Building Blocks
 - Chapter 5-2 - The SQL Kernel Experience
