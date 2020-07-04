@@ -1,6 +1,6 @@
 # Book I - Getting Started
 
-[Home](../readme.md)
+[Back](../readme.md)
 
 ## Code Samples and Notebooks for Book I
 - [Chapter 1 - Open Source, Cross-Platform, Multi-Database](CH-01/readme.md)

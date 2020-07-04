@@ -3,7 +3,7 @@
 Book II seeks to dig deeper into many of the topics and features introduced in Book I. The reader will find *concrete* and *reusable* examples in each dive. This chapter should also show feature synergy, revealing that the *whole* of ADS is greater than a sum of its *parts*.
 
 
-[Home](../readme.md)
+[Back](../readme.md)
 
 ## Jupyter Notebooks for Book II
 - Chapter 01 - Creating Snippets
