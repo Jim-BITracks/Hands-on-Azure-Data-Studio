@@ -1,7 +1,7 @@
 # Hands-on Azure Data Studio
 ## Using Microsoft’s new Open Architecture for Data
 
-This collection of 'Code Samples', 'Notebooks', 'Data' and 'links' Jupyter Notebooks (.ipynb) provides supporting materials for the book series: Hands-on Azure Data Studio.
+The collection of 'Code Samples', 'Notebooks', 'Data' and 'Links' providing supporting materials for the book series.
 
 ## Books
 
