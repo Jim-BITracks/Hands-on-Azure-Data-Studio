@@ -5,35 +5,35 @@
   search: true
   
 - title: Book I - Getting Started 
-  url: /landscape/readme
+  url: /Book_I/readme
   not_numbered: true
   expand_sections: true
   sections:
   - title: CH-01 - Open Source, Cross-Platform, Multi-Database
-    url: landscape/CH-01/readme
+    url: Book_I/CH-01/readme
     not_numbered: true
   - title: CH-02 - Everything Starts with a Connection
-    url: landscape/CH-02/readme
+    url: Book_I/CH-02/readme
     not_numbered: true
   - title: CH-03 - SQL Editing Reimagined
-    url: landscape/CH-03/readme
+    url: Book_I/CH-03/readme
     not_numbered: true
   - title: CH-04 - Visualizing and Exporting Your Queries
-    url: landscape/CH-04/readme
+    url: Book_I/CH-04/readme
     not_numbered: true
   - title: CH-05 - Getting Things Done with Notebooks
-    url: landscape/CH-05/readme
+    url: Book_I/CH-05/readme
     not_numbered: true
     expand_sections: true
     sections:
     - title: CH-05-01 - Notebook Building Blocks
-      url: landscape/CH-05/CH-05-01 
+      url: Book_I/CH-05/CH-05-01 
   - title: CH-06 - Reaching Beyond SQL with PowerShell and Python
-    url: landscape/CH-06/readme
+    url: Book_I/CH-06/readme
     not_numbered: true
   - title: CH-07 - Source Control by Design
-    url: landscape/CH-07/readme
+    url: Book_I/CH-07/readme
     not_numbered: true
   - title: CH-08 - Free and Easy Extensions
-    url: landscape/CH-08/readme
+    url: Book_I/CH-08/readme
     not_numbered: true
