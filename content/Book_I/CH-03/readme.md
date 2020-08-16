@@ -46,3 +46,6 @@ Invoke-Sqlcmd -Query "select * from INFORMATION_SCHEMA.TABLES" -ServerInstance "
 ```powershell
 Invoke-Sqlcmd -Query "select * from INFORMATION_SCHEMA.TABLES" -ServerInstance "localhost" | export-csv -Delimiter ',' -Path "tables.csv" -NoTypeInformation
 ```
+
+## Links
+[ADS Snippets Video](https://youtu.be/WSjKuqbvKjo)
