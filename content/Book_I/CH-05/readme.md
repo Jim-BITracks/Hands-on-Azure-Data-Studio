@@ -94,9 +94,9 @@ Copy-Item "\\src_computer_name\db backup\*.BAK" -Destination "\\dst_computer_nam
 ## More to Come
 
 ## Links
-[SQL Notebook](CH-05/CH-05-01.ipynb)
+[SQL Notebook](CH-05-01.ipynb)
 
-[PowerShell Notebook](CH-05/CH-05-02.ipynb)
+[PowerShell Notebook](CH-05-02.ipynb)
 
 [Supporting Video](https://youtu.be/IKj66u6Lyd4)
 
