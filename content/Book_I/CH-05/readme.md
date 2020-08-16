@@ -94,9 +94,16 @@ Copy-Item "\\src_computer_name\db backup\*.BAK" -Destination "\\dst_computer_nam
 ## More to Come
 
 ## Links
-[Supporting Notebooks](https://github.com/Jim-BITracks/Hands-on-Azure-Data-Studio/blob/master/content/Book_I/CH-05/readme.md)
+[SQL Notebook](CH-05/CH-05-01.ipynb)
+
+[PowerShell Notebook](CH-05/CH-05-02.ipynb)
+
 [Supporting Video](https://youtu.be/IKj66u6Lyd4)
+
 [Markdown Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+
 [Markdown Formatting Examples](https://www.google.com/search?q=markdown)
+
 [ADS Multi-Kernel Feature Request](https://github.com/microsoft/azuredatastudio/issues/5451)
+
 [Latest Azure Data Studio Updates](https://docs.microsoft.com/en-us/sql/azure-data-studio/release-notes-azure-data-studio?view=sql-server-ver15)
