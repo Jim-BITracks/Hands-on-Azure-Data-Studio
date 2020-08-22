@@ -78,7 +78,7 @@ SELECT a.[HOUR OF THE DAY]
  ORDER BY [HOUR OF THE DAY];
 ```
 
-## PowerShell Kernel Option
+## Kernel Options
 
 ### Simple PowerShell Notebook
 
@@ -89,6 +89,36 @@ SELECT a.[HOUR OF THE DAY]
 
 ```powershell
 Copy-Item "\\src_computer_name\db backup\*.BAK" -Destination "\\dst_computer_name\db backup"
+```
+
+### Simple Python Notebook
+
+```markdown
+# Python Notebook
+## Platform Information
+```
+
+``` python
+import os
+import platform
+print ('Python version: ' + platform.python_version())
+print (os.path.dirname(sys.executable))
+```
+
+```markdown
+## Find Files
+```
+
+``` python
+import fnmatch
+import os
+ 
+rootPath = '/'
+pattern = '*.json'
+ 
+for root, dirs, files in os.walk(rootPath):
+    for filename in fnmatch.filter(files, pattern):
+        print( os.path.join(root, filename))
 ```
 
 ## More to Come
@@ -107,3 +137,7 @@ Copy-Item "\\src_computer_name\db backup\*.BAK" -Destination "\\dst_computer_nam
 [ADS Multi-Kernel Feature Request](https://github.com/microsoft/azuredatastudio/issues/5451)
 
 [Latest Azure Data Studio Updates](https://docs.microsoft.com/en-us/sql/azure-data-studio/release-notes-azure-data-studio?view=sql-server-ver15)
+
+[Changing the "Python kernel" in ADS](https://docs.microsoft.com/en-us/sql/azure-data-studio/notebooks-tutorial-python-kernel?view=sql-server-ver15#change-the-python-kernel)
+
+[Python for Beginners](https://www.pythonforbeginners.com/)

@@ -1,6 +1,6 @@
 [Back](../readme.md)
 
-## Reaching Beyond SQL with PowerShell and Python
+## Reaching Beyond SQL with PowerShell, Python and the Terminal Window
 
 Not long ago you needed to use 2 or more applications when moshing your SQL code with languages such as Python or PowerShell. The user experience in ADS fuses this development paradigm into a single platform, leading to some surprising innovation, especially when developing data centric applications… [Full text available at leanpub.com](https://leanpub.com/hands-on-ads)
 
