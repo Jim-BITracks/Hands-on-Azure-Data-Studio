@@ -5,6 +5,12 @@
 
 # ***Contents***
 
+> Notebooks:
+> [NYC Car Accidents](CH-05-01.ipynb)
+> [PowerShell Notebook](CH-05-02.ipynb)
+> [Python Notebook](CH-05-03.ipynb)
+
+
 ## Notebook Building Blocks
 
 ### Comments’ on Steroids via Markdown
