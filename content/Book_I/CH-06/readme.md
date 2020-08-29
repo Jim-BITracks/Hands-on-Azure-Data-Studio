@@ -7,6 +7,8 @@
 > Notebook:
 > [Copy Table Example](CH-06-01.ipynb)
 
+**'BACKUP and COPY' for the *car_crash* database**
+
 ``` powershell
 Invoke-Sqlcmd -Query "BACKUP DATABASE car_crash TO DISK = 'C:\temp\car_crash.bak'" -ServerInstance "localhost"
 Copy-Item "C:\temp\car_crash.bak" -Destination "\\network_server\db backup"
@@ -163,3 +165,16 @@ pwsh -file "c:\hands-on-ads\simple_dataflow.ps1" -src_conn "Server=localhost;Dat
 > Note: Chapter 8 will provide an introduction to Extensions in Azure Data Studio. In the mean time you may want to reference this [link](https://docs.microsoft.com/en-us/sql/azure-data-studio/extensions?view=sql-server-ver15) on Extending ADS.
 
 Our "Simple Dataflow" extension for ADS can be downloaded from the book's official GitHub site: https://github.com/Jim-BITracks/Hands-on-Azure-Data-Studio under the 'extensions' folder.
+
+## Links
+[PowerShell Notebook](CH-06-01.ipynb)
+
+[dbatools](https://dbatools.io/)
+
+[Copy-DbaDbTableData](https://docs.dbatools.io/#Copy-DbaDbTableData)
+
+[PowerShell Core](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7)
+
+[ELT vs ETL](https://youtu.be/kJcd6xVK2lY)
+
+[Extensions in ADS](https://docs.microsoft.com/en-us/sql/azure-data-studio/extensions?view=sql-server-ver15)
