@@ -7,7 +7,7 @@
 > Notebook:
 > [Copy Table Example](CH-06-01.ipynb)
 
-**'BACKUP and COPY' for the *car_crash* database**
+**'BACKUP and COPY' script for the *car_crash* database**
 
 ``` powershell
 Invoke-Sqlcmd -Query "BACKUP DATABASE car_crash TO DISK = 'C:\temp\car_crash.bak'" -ServerInstance "localhost"

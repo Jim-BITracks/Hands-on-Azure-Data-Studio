@@ -1,11 +1,11 @@
 # Book II - The Deep Dives
 
-Book II seeks to dig deeper into many of the topics and features introduced in Book I. The reader will find *concrete* and *reusable* examples in each dive. This chapter should also show feature synergy, revealing that the *whole* of ADS is greater than a sum of its *parts*.
+Book II seeks to dig deeper into many of the topics and features introduced in Book I. The reader will find concrete and reusable examples in each dive. This book will also show more feature *synergy*, continuing the theme that the *whole* of ADS is greater than a sum of its *parts*.
 
 
 [Back](../readme.md)
 
-## Jupyter Notebooks for Book II
+## Contents for Book II
 - Chapter 01 - Creating Snippets
 - Chapter 02 - Customizing your Dashboards
 - Chapter 03 - The Power and Versatility of Notebooks
