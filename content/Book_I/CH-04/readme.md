@@ -46,7 +46,7 @@ select l.BOROUGH
 
 ## Links
 
-[**Download:** SQL Server Database: car_crash](https://github.com/Jim-BITracks/Hands-on-Azure-Data-Studio/blob/master/database/car_crash.zip)
+[**Download:** SQL Server Database: car_crash](https://github.com/Jim-BITracks/Hands-on-Azure-Data-Studio/tree/master/database)
 
 [NYC Opendata - Vehicle Collisions](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/data)
 
