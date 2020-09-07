@@ -1,6 +1,11 @@
 [Back](../readme.md)
 
 # Chapter 6 - Reaching Beyond SQL with PowerShell, the Terminal Window, and an Extension
+When you are working directly on a database server, whether entering SQL queries or performing data manipulations, there is a really good chance you are using an SQL editor that provides a 'run' button. This is of course the case with Azure Data Studio, SQL Server Management Studio, or any of the non-Microsoft SQL editing programs such as Toad, MySQL Workbench, or Oracle SQL Developer.
+
+This is fine if your task at hand is fully SQL centric. However often times we need to go *beyond* the SQL language constructs, and leverage capabilities better suited to other languages, computer applications, or existing system utilities. A common example of this would be a database backup (using the SQL 'BACKUP' command) which then needs to be copied over the network to another computer (using perhaps Window's 'XCOPY' command).
+
+[Full text available at leanpub.com](https://leanpub.com/hands-on-ads)
 
 # ***Contents***
 
