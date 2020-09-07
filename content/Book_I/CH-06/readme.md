@@ -178,3 +178,5 @@ Our "Simple Dataflow" extension for ADS can be downloaded from the book's offici
 [ELT vs ETL](https://youtu.be/kJcd6xVK2lY)
 
 [Extensions in ADS](https://docs.microsoft.com/en-us/sql/azure-data-studio/extensions?view=sql-server-ver15)
+
+[Simple Dataflow Extensions](https://github.com/Jim-BITracks/eltsnap-simpleDataFlow)
