@@ -72,7 +72,7 @@ Since you are Reading this book, it's assumed that you have already downloaded a
 
 As a quick guide, once you open ADS, you can refer to Figure 1-1 which displays the *regions* of Azure Data Studio that we will commonly reference:
 
-![Figure 1-1. Azure Data Studio Window Regions](Figure_01_01.png)
+![Figure 1-1. Azure Data Studio Window Regions](Figure_01_01.PNG)
 
 Figure 1-1. Azure Data Studio Window Regions
 
