@@ -9,6 +9,9 @@
   not_numbered: true
   expand_sections: true
   sections:
+  - title: Introduction
+    url: Book_I/Introduction/readme
+    not_numbered: true
   - title: CH-01 - Open Source, Cross-Platform, Multi-Database
     url: Book_I/CH-01/readme
     not_numbered: true
