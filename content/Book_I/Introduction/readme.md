@@ -30,8 +30,6 @@ All the supporting SQL, PowerShell, and Python scripts, along with Notebooks, an
 
 Figure I-1. GitHub Site for Book
 
-Figure I-1. GitHub Site for Book
-
 >If this is the first time you have 'cloned' a repository using Git, please jump ahead to **Chapter 7** for a step-by-step walkthrough to download this GitHub repository.
 
 ### Companion Database
