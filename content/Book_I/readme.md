@@ -3,6 +3,7 @@
 [Back](../readme.md)
 
 ## Code Samples and Notebooks for Book I
+- [Introduction](Introduction/readme.md)
 - [Chapter 1 - Open Source, Cross-Platform, Multi-Database](CH-01/readme.md)
 - [Chapter 2 - Everything Starts with a Connection](CH-02/readme.md)
 - [Chapter 3 - SQL Editing Reimagined](CH-03/readme.md)
