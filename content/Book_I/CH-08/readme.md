@@ -21,3 +21,7 @@ select * from [car_crash].[edw].[D_TIME];
 ### Extension Wrap-up
 
 ## Conclusion
+
+## Links
+
+[Visual Studio's Community edition download](https://visualstudio.microsoft.com/vs/community/)
