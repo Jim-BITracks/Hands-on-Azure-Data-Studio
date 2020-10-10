@@ -140,6 +140,7 @@ Figure 2-15. Sql: Color Coded SQL Editor Windows
 To help you get started with creating and organizing connections, we have created the associated YouTube content: 
 
 [**Video:** Creating Connections](https://youtu.be/lJRg4SzmEU8)
+
 [**Video:** Server Groups](https://youtu.be/lJRg4SzmEU8)
 
 For targeted viewing, the ‘grouping’ of connections starts at minute 03:35, and the ‘color coding’ begins at 04:45.
