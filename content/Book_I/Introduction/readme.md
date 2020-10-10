@@ -5,7 +5,7 @@ Back in 1980, while busily programming Basic on a Dec PDP-11 in Cincinnati, I wa
 
 I now realize how quickly I dismissed not only a revolutionary product, but an entirely new way to personally interact with software. Forty years later, with my acquired gray and white hair, and while attending the SQL PASS Summit conference in Seattle, I was introduced to a new product called “Azure Data Studio”. This time my reaction was not: ‘**Meh**…’; but instead: ‘**Wow!**’. 
 
-## This book was written for...
+## Who this book was written for
 Data and Database engineers, and anyone who is involved in exploring and analyzing data. This includes SQL developers, data analysts, data scientists, and database administrators. This books will also be helpful for professionals involved in data integration and data warehousing, as well as for Python and PowerShell developers looking for a *data centric* platform for using their language of choice.
 
 In addition, you do not need to be on **Azure**! Azure Data Studio works equally as well with on-premise databases as it does with databases living on the Azure platform.
