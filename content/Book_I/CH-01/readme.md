@@ -74,6 +74,7 @@ As a quick guide, once you open ADS, you can refer to Figure 1-1 which displays 
 
 ![Figure 1-1. Azure Data Studio Window Regions](Figure_01_01.png)
 
+Figure 1-1. Azure Data Studio Window Regions
 
 [^ballmer]: https://www.theregister.co.uk/2000/07/31/ms_ballmer_linux_is_communism
 [^open]: https://www.infoworld.com/article/3253948/who-really-contributes-to-open-source.html
