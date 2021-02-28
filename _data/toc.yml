@@ -33,7 +33,7 @@
       url: Book_I/CH-05/CH-05-01
     - title: CH-05-02 - PowerShell Notebook Example
       url: Book_I/CH-05/CH-05-02
-    - title: CH-05-02 - Python Notebook Example
+    - title: CH-05-03 - Python Notebook Example
       url: Book_I/CH-05/CH-05-03
   - title: CH-06 - Reaching Beyond SQL with PowerShell and Python
     url: Book_I/CH-06/readme
