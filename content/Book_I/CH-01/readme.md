@@ -15,33 +15,36 @@ Interestingly, the world of open source is a two-way street. Not only do Develop
 ### A perspective on Open Source
 The open source concept is a bit like receiving a free video camera along with step by step instructions on how it was built. You can not only use the camera to make the next Video sensation, but you could alter the camera to add a custom telephoto lens, extended battery, or perhaps a motion detector. While functional changes are admittedly much more difficult than simply using the camera, the key here is the *potential* to improve. This engineering transparency does add a layer of technical scrutiny to the manufacturer, but should also lead to broader, not to mention more ‘cost competitive’ aftermarket products.
 
-This is the new world of Microsoft open source. Even though you may never want, need, or have time to plow through the ADS source code to make a change; the mere fact that you *can* is critically important for the product and its forward potential.
+This is the new world of Microsoft ‘open source’. Even though you may never want, need, or have time to plow through the ADS source code to make a change; the mere fact that you *can* is critically important for the product and its forward potential.
 
 Microsoft’s *licensing* for Azure Data Studio is also a departure from the past, consisting of just two ‘readable’ paragraphs. The text has very liberal license terms for ADS [^license], granting even *sublicensing* rights when you are using ADS with your affiliates and/or vendors, while they are performing work on your behalf.
 
 ### Extend and Enhance ADS
 You can *extend and enhance* ADS in a surprising number of ways, enabled both by ‘open source’, and the actual ADS product architecture. Options range from:
 
-- Easily accessible ‘code snippets’ for SQL and other languages
-- Dashboard widgets including the popular SandDance visualization
-- Highly versatile Juypter notebooks
-- Integrated Terminal Window command line options
+- ‘Code Snippets’ for SQL and other supported languages
+- Dashboard widgets
+- SandDance visualizations (via a free extension)
+- Remote Juypter Books
+- Integrated Terminal Window Commands
 - Customizable keyboard shortcuts
-- Product extensions (authored by Microsoft, third parties, or even you!)
+- Official Product extensions (authored by Microsoft, third parties, or even you!)
 
 A couple notable ‘extensions’ include ‘PostgresSQL’ from Microsoft, and “SQL Server Schema Compare” from Redgate. We will cover these and more in this book, but it is worth noting that extensions will likely catapult Azure Data Studio into the ‘must have’ category for your desktop. Unlike traditional ‘add-ins’, extensions are developed on the identical platform (Electron shell and Node.js) as ADS itself. This is because ADS and its extensions come from the same mothership: ‘VS Code’. Interestingly, even VS Code shares a similar development platform, and is itself 'open source', and fully extensible [^extensible].
 
 ### Contribute to ADS
 Anyone with enough time, skill and determination could develop an official ‘fix’ or ‘enhancement’ to Azure Data Studio. This would be done to either add capabilities used *internally* for your organization or developed and submitted to Microsoft as an official product improvement available to *everyone*. In the case of ‘internal’ use, the ADS license allows you to change, distribute and sublicense your custom version of ADS, albeit to a limited audience. 
 
-Alternately, to allow Microsoft to incorporate your changes into ADS proper, you only need to create a GitHub ‘Pull Request’ on the official ADS site: [ADS GitHub Site](https://github.com/microsoft/azuredatastudio) and Microsoft will review and potentially incorporate your code submission into the next release of ADS.
+Alternately, to allow Microsoft to incorporate your changes into “ADS Proper”, you only need to create a GitHub ‘Pull Request’ on the official ADS site: [ADS GitHub Site](https://github.com/microsoft/azuredatastudio) and Microsoft will review and potentially incorporate your code submission into the next release of ADS.
+
 Another option, in the event you simply discover a bug, or have a suggestion for improvement, is to use GitHub to create an ‘issue’. For those interested in participating in this way, Microsoft has a page on their site: [Contributing to ADS](https://github.com/microsoft/azuredatastudio/blob/master/CONTRIBUTING.md) providing guidelines for interacting with the ‘Issues’ section on GitHub.
 
 ## The new options provided by “Cross-Platform” computing
-The see-saw battle for computer and software dominance between Microsoft and Apple, and by extension between Windows and macOS, while still on-going, will perhaps end in a whimper, not a bang. This is because these behemoths, and the growing ‘platform agnostic’ cloud computing options are making the reminiscent *"I’m a PC, I’m a Mac"* choice less relevant. Add to this the increasing popularity of Linux, which is also free and open source (anyone see a pattern?) and you have several platform options for running Azure Data Studio.
+The see-saw battle for computer and software dominance between Microsoft and Apple, and by extension between Windows and macOS, while still on-going, will perhaps end in a whimper, not a bang. This is because these behemoths, and the growing ‘platform agnostic’ cloud computing options are making the memorable *"I’m a PC, I’m a Mac"* choice less relevant. Add to this the increasing popularity of Linux, which is typically free and open source (anyone see a pattern?), and you have several platform options for running Azure Data Studio.
 
 ### What about the Database ‘Platform’
 When you are using ADS, there is a great likelihood that you are querying, developing, managing, or analyzing the contents of one or more databases. Here as well you have many options for where your databases can reside. Despite a common misconception (probably due to having ‘Azure’ in its name), Azure Data Studio provides full connectivity to both cloud and on-premise Database Systems.
+
 But your database choices do not stop there. If we just consider SQL Server for now, we have *many* platform options including:
 - Windows
 - Linux
@@ -59,26 +62,29 @@ But there is more to the *Multi-Database* story due to the language (kernel) opt
 
 For example, let us say you would like to connect to the cloud based ‘snowflake’ database while using ADS. A good language choice for this would be Python since (a) it is a directly supported ADS language, and (b) it has native ‘snowflake’ connector. When using Python in ADS, you can invoke scripts from the Terminal Window, or within a Juypter notebook. In either case, you now can use Python language constructs (e.g., variables, arrays, loops and branches) to implement complex logic that is ultimately rendered as ‘snowSQL’ statements (snowflake’s SQL dialect).
 
+Alternatively, you could use an ODBC driver, connecting to just about any database, and then use PowerShell to invoke _System.Data_ assemblies that can move and transform data.
+
 ## What about 'Management Studio'?
 When asked of Microsoft and early adopters if Azure Data Studio is a *replacement* for SQL Server Management Studio (SSMS), the most common responses are “not yet if you are a Data Base Administrator”, or “yes if you are primarily a SQL Developer”. However, I think these replies are a bit short sighted since ADS is much broader in scope than SSMS (a Windows only management application, and only for SQL Server). As *startling* as it may sound, Azure Data Studio at its core is largely 'database', 'platform', and 'language' agnostic. While it is true that ‘SQL Server’ was the first ADS supported database (and will likely continue to enjoy priority status), Microsoft is implementing support for third-party databases, despite the aforementioned 'SSMS' functionality gaps for DBAs.
 
-The bigger picture however is based on the very architecture of ADS, which puts the ‘user community’ in the driver’s seat; whether creating simple enhancements, or developing highly functional extensions and placing them in the integrated ‘Extensions Marketplace’. Azure Data Studio is truly a new and open breed of software, which will certainly complement, if not eventually replace *multiple programs* that sit prominently on many of our desktops. Even the word ‘replace’ in this context seems insufficient, since ADS *integrates* formerly disparate applications under a single roof. And this is precisely where I think things will get interesting for all Data Professionals.
+The bigger picture however is based on the very architecture of ADS, which puts the ‘user community’ in the driver’s seat; whether creating simple enhancements, or developing highly functional extensions and placing them in the integrated ‘Extensions Marketplace’. 
+
+Azure Data Studio is truly a new and open breed of software, which will certainly complement, if not eventually replace *multiple programs* that sit prominently on many of our desktops. Even the word ‘replace’ in this context seems insufficient, since ADS *integrates* formerly disparate applications under a single roof. And this is precisely where I think things will get interesting for all Data Professionals.
 
 ## Opening Azure Data Studio
 
-Since you are Reading this book, it's assumed that you have already downloaded and installed Azure Data Studio (ADS). If this is *not* the case, you can enter: Azure Data Studio into any search engine, or use this link: [](https://docs.microsoft.com/en-us/sql/azure-data-studio), and click on the **Download Azure Data Studio** link, and follow the instructions to install on your computer's operating system.
+Since you are Reading this book, it's assumed that you have already downloaded and installed Azure Data Studio (ADS). If this is *not* the case, you can enter: **Azure Data Studio** into any search engine, or use this: [download link](https://docs.microsoft.com/en-us/sql/azure-data-studio), and follow the instructions to install on your local computer.
 
-> Note that Azure Data Studio does not include a *Database Server* within the download. If needed, you can download "SQL Server Express Edition", which is a lightweight and Free version of SQL Server. All the examples is this book will work with [SQL Server Express 2019](https://go.microsoft.com/fwlink/?linkid=866658).
+> Note that Azure Data Studio does not include a *Database Server* with the installation. If needed, you can download "SQL Server Express Edition", which is a lightweight and _Free_ version of SQL Server. All the examples is this book will work with [SQL Server Express 2019](https://go.microsoft.com/fwlink/?linkid=866658).
 
 As a quick guide, once you open ADS, you can refer to Figure 1-1 which displays the *regions* of Azure Data Studio that we will commonly reference:
 
 ![Figure 1-1. Azure Data Studio Window Regions](Figure_01_01.png)
 
-Figure 1-1. Azure Data Studio Window Regions
-
 [^ballmer]: https://www.theregister.co.uk/2000/07/31/ms_ballmer_linux_is_communism
 [^open]: https://www.infoworld.com/article/3253948/who-really-contributes-to-open-source.html
 [^license]: https://github.com/microsoft/azuredatastudio/blob/master/LICENSE.txt
+
 [^extensible]: https://bornsql.ca/blog/introducing-azure-data-studio
+
 [^postgresql]: For PostgreSQL support you first need to add the free PostgreSQL extension from Microsoft. This can be found in the ADS Extensions ‘Marketplace’
-{sample: false}
