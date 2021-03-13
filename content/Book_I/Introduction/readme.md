@@ -1,14 +1,14 @@
 [Back](../readme.md)
 
 # Introduction
-Back in 1980, while busily programming Basic on a Dec PDP-11 in Cincinnati, I was introduced by a friend to a new software product called ‘VisiCalc’. It was the burgeoning micro-computer era, along with the infancy of personal software programs. My less than thoughtful reaction to the glowing flicker of green lines and text in VisiCalc, was “**Meh**… not really feeling it”. After all, who really needs an *electronic* Spreadsheet...
+Back in 1980, while busily programming Basic on a Dec PDP-11 in Cincinnati, I was introduced by a friend to a new software product called ‘VisiCalc’. It was the burgeoning micro-computer era, along with the infancy of personal software programs. My less than thoughtful reaction to the glowing flicker of green lines and text in VisiCalc, was “**Meh… not really feeling it**”. After all, who really needs an *electronic* Spreadsheet...
 
-I now realize how quickly I dismissed not only a revolutionary product, but an entirely new way to personally interact with software. Forty years later, with my acquired gray and white hair, and while attending the SQL PASS Summit conference in Seattle, I was introduced to a new product called “Azure Data Studio”. This time my reaction was not: ‘**Meh**…’; but instead: ‘**Wow!**’. 
+I now realize how quickly I dismissed not only a revolutionary product, but an entirely new way to personally interact with software. Forty years later, with my acquired gray and white hair, and while attending the 2019 SQL PASS Summit conference in Seattle, I was introduced to a new product called “Azure Data Studio”. This time my reaction was not: ‘**Meh...**’; but instead: ‘**Wow!**’. 
 
 ## Who this book was written for
 Data and Database engineers, and anyone who is involved in exploring and analyzing data. This includes SQL developers, data analysts, data scientists, and database administrators. This books will also be helpful for professionals involved in data integration and data warehousing, as well as for Python and PowerShell developers looking for a *data centric* platform for using their language of choice.
 
-In addition, you do not need to be on **Azure**! Azure Data Studio works equally as well with on-premise databases as it does with databases living on the Azure platform.
+In addition, diverging from the name, you do not need to be on **Azure**! Azure Data Studio works equally as well with on-premise databases as it does with databases housed on the Azure platform.
 
 ## What you need to get the most from this book
 Azure Data Studio is free for both private and commercial use, and can be downloaded from:
@@ -28,8 +28,6 @@ All the supporting SQL, PowerShell, and Python scripts, along with Notebooks, an
 
 ![Figure I-1. GitHub Site for Book](Figure_I_01.png)
 
-Figure I-1. GitHub Site for Book
-
 >If this is the first time you have 'cloned' a repository using Git, please jump ahead to **Chapter 7** for a step-by-step walkthrough to download this GitHub repository.
 
 ### Companion Database
@@ -43,4 +41,4 @@ Jim is the President of BI Tracks Consulting and is on a mission to help people 
 Jim has worked in many facets of the IT business for over 30 years, with a focus on data warehousing, data integration, reporting and analytics, business intelligence, data modeling (relational, multi-dimensional), ELT/ETL frameworks, database architecture, and database performance tuning. In previous engagements, Jim has fulfilled roles as Data Architect, DBA, IT Director, and Senior Consultant. He also has experience in account management, marketing/technical support, and software application training. Jim has also had some extraordinary opportunities to lead IT organizations, with multi-national participants, on reconstruction projects based in Bosnia as part of the Dayton Peace Agreement, and more recently in Iraq with the US Department of State.
 
 ## Why this book
-After stumbling across “Azure Data Studio” (ADS) at the SQL PASS Summit 2019 in Seattle, Jim realized that this product/platform could *revolutionize* how we interact, discover, process, and share data and analytics. Knowing also that this new approach to data engineering and related processes would be a fascinating 'journey', Jim decided to  document the capabilities, and share the lessons learned. This book, which has now morphed into a book series (starting with the one you are reading), is the result.
+After spending quality time with “Azure Data Studio” (ADS), Jim realized that this product/platform could *revolutionize* how we interact, discover, process, and share data and analytics. Knowing also that this new approach to data engineering and related processes would be a fascinating 'journey', Jim decided to  document the capabilities, and share the lessons learned. This book is the result, which is designed to be a great start for your personal adventure with **Azure Data Studio**.
