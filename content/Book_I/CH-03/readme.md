@@ -17,27 +17,27 @@ This will open a blank editing window where you can simply start typing. As you 
 The up and down arrows provide navigation within this pop-up list, or you can use a mouse-click directly on the desired keyword. Also notice that figure 3-2 has the ‘Side Bar’ hidden, yielding a bit cleaner presentation. You can toggle the ‘Side Bar’ off and on by pressing the key sequence **Ctrl+B**. To accomplish the same with your pointing device, simply click on the ‘server icon’ in the ‘Activity Bar’ or use the ‘Menu Bar’ selections: View, Appearance, Show Side Bar.
 
 ### Code Snippets
-One of my favorite editing features in ADS are powered by ‘Code Snippets’. These can be a huge timesaver, are fully integrated with IntelliSense, and are user customizable. Let us walk through a quick Snippet example.
+One of my favorite editing features in ADS are powered by ‘Code Snippets’. These can be a huge timesaver, are fully integrated with IntelliSense, and best of all are user customizable. Let us walk through a quick Snippet example.
 
 As an additional reference, we have created a video: [ADS Snippets](https://youtu.be/WSjKuqbvKjo) which demonstrates using snippets in Azure Data Studio
 
- Let’s say you wanted to create a table. By typing **createtable** you will see the ‘camel cased’ snippet sqlCreatTable pop-up. You just hit ‘Tab’ when highlighted, or optionally click on the snippet in the pop-up, and you will get the ‘Create Table’ template as displayed in figure 3-3:
+ Let’s say you wanted to create a table. By typing **createtable** you will see the ‘camel cased’ snippet *sqlCreatTable* pop-up. You just hit ‘Tab’ when highlighted, or optionally click on the snippet in the pop-up, and you will get the ‘Create Table’ template as displayed in figure 3-3:
 
 ![Figure 3-3. Create Table (Default) Snippet](Figure_03_03.png)
 
-You may be surprised to now see 4 blinking cursors! This is because you are automatically placed in the process of *completing* the pre-defined variable *placeholders*. The reason you have 4 blinking cursors is because the first ‘placeholder’ (TableName) has a total of 4 instances. If you were to next type ‘product’, the variable replacement would occur 4 times and figure 3-4 would be the result:
+You may be surprised to now see 4 blinking cursors! The first reason for this, is you are automatically placed in the process of *completing* the pre-defined variable *placeholders* within the snippet. Additionally, the reason you have **4** blinking cursors is because the first ‘placeholder’ (TableName) has a total of 4 instances. If you were to next type ‘product’, the variable replacement would occur 4 times and figure 3-4 would be the result:
 
 ![Figure 3-4. Snippet Variable Replacement](Figure_03_04.png)
 
-To move to the next defined variable, press the ‘Tab’ key again and you will see the next variable highlighted (this one used for the *schema* name) which also has 4 occurrences that are changed simultaneously. The next ‘Tab’ will take you to the first table column (in this case: **[Id]**), and so on until all variables have been visited, and likely replaced. 
+To move to the next defined variable, press the ‘Tab’ key again and you will see the next variable highlighted (this one used for the *schema* name) which happens also to have 4 occurrences which will change simultaneously. The next ‘Tab’ will take you to the first table column (in this case: **[Id]**), and so on until all variables have been visited, and optionally replaced. 
 
-This ‘default’ (built-in) snippet is a nice start to creating a table, but you may be thinking “I’d like my snippet *customized* for our organization’s common code patterns”.  Not to worry, later in this chapter (as well as in chapter 9), we will cover how you can easily create your own snippets. Just like the built-in snippets, these will readily surface in your SQL editor, based on the same IntelliSense driven keystrokes.
+This ‘default’ (built-in) snippet is a nice start to creating a table, but you may be thinking “I’d like my snippet *customized* for our organization’s common code patterns”.  Not to worry, later in this chapter (as well as in chapter 9), we will cover how you can easily create your own snippets. Just like the built-in snippets, these will readily surface in your SQL editor, based on the very same *IntelliSense* driven keystrokes.
 
 ### Object Definitions
 
-While you are editing your SQL Queries, it is a common requirement to reference ‘Object Definitions’ within your database model. For example, say you are writing a query using a certain table column, and need to know if it could contain **NULL** values. In this case, the standard IntelliSense capability of suggesting ‘column names’ falls a bit short. Instead, what is needed is the full *definition* of the table object.
+While you are editing your SQL Queries, it is a common requirement to reference ‘Object Definitions’ within your database model. For example, say you are writing a query requiring a certain table column, and need to know if it is allowed to contain **NULL** values. In this case, the standard IntelliSense capability of suggesting ‘column names’ falls a bit short. Instead, what is needed is the full *definition* of the table object.
 
-Since your database could contain *hundreds* of tables, each of which could store numerous columns, it is often a pain to ‘quickly’ retrieve table and column definitions by browsing for these object definitions in the ‘Side Bar’. To remedy this situation, ADS provides direct access to object definitions, without leaving the editor window. Simply ‘right click’ on any table name in your query, and a couple options will pop-up. Figure 3-5 captures this pop-up when drilling into the table named: **oledb_connection**: 
+Since your database could contain *hundreds* of tables, each of which can have numerous columns, it is often a pain to ‘quickly’ retrieve table and column definitions by browsing for these object definitions via the ‘Side Bar’. To remedy this situation, ADS provides direct access to object definitions, without leaving the editor window. Simply ‘right click’ on any table name in your query, and a couple options will pop-up. Figure 3-5 captures this pop-up when drilling into the table named: **oledb_connection**: 
 
 ![Figure 3-5. Accessing ‘Object Definitions’](Figure_03_05.png)
 
@@ -49,10 +49,10 @@ The second option “Peek Definition”, will furnish you with the same definiti
 
 In the event the table definition has many columns, you can use the ‘Search Control’ located on the right side of the screen, to search for a ‘specific’ column definition.
 
-#### Creating a Snippet for Column Definitions
-You may be thinking, “This is helpful for retrieving a column definition located a single table”, but what if I want to see how the *same column* is defined in all tables?”.  This is a good question, and one that could be answered by creating a custom snippet.
+### Creating a Snippet for Column Definitions
+You may be thinking, “This is helpful for retrieving a column definition located in a single table”, but what if I want to see how the *same column* is defined in all tables?”. This is a good question, and one that could be answered by creating a custom snippet.
 
-A good place to start when creating a snippet is to write the *base* query, which for our case will employ the INFORMATION_SCHEMA.COLUMNS system view, run initially against the msdb ‘system’ database. In the query, we will be searching for *all* definitions of the **plan_name** column located in this database:
+A good place to start when creating a snippet is to write the *base* query, which in our example will employ the INFORMATION_SCHEMA.COLUMNS system view, to run initially against the msdb ‘system’ database. In the query, we will be searching for *all* definitions of the **plan_name** column located in this database:
 
 ``` sql
 select * from msdb.INFORMATION_SCHEMA.COLUMNS 
@@ -64,9 +64,9 @@ A subset of the columns returned from running the above query are shown in figur
 
 The result shown above reveals that the column **plan_name** is found in 3 tables within the **msdb** database. We discover that the column is defined with a consistent data type of ‘nvarchar’, but varies in terms of ‘nullability’ as well as ‘default’ values.
 
-You could now save this helpful little snippet (or ‘template’) as a stand-alone query residing in your file system, or *convert* it to a formal ‘ADS Snippet’. The former would be accessed when needed by navigating within the file system (i.e., File, Open), and the later would be retrieved by keystrokes directly in the SQL editor window. Another consideration is a formal ‘ADS Snippet’ can optionally provide *variable* substitution, which can greatly simplify the re-use of your custom snippet.
+You could now save this helpful little snippet (or ‘template’) as a stand-alone query residing in your file system, or *convert* it to a formal ‘ADS Snippet’. The former would be accessed when needed by navigating within the file system (i.e., File, Open), and the later would be retrieved by keystrokes directly in the SQL editor window. Another consideration is a formal ‘ADS Snippet’ can optionally provide *variable* substitution, which can greatly simplify the re-use of your custom snippets.
 
-Regardless of your choice, the next section will cover how to save your ADS queries into the File System, and how to save customized ADS Snippets.
+Regardless of your choice, the next section will cover how to save your ADS queries into the File System, as well as how to save customized ADS Snippets.
 
 ## Saving Queries and Snippets
 When working with multiple ‘file based’ queries, it is helpful to organize related scripts into a common folder structure. To achieve this, you simply select (or optionally create) a folder using the ‘Menu Bar’ File, Open Folder command as shown in figure 3-8. This will establish your ‘current’ folder context:
@@ -93,7 +93,7 @@ As you might have guessed, pressing CTRL + S will open the ‘Save’ dialog box
 
 ![Figure 3-11. Save Query File](Figure_03_11.png)
 
-Ok, saving a file is admittedly a pretty basic user action. However, what if you would like to save this query as a reusable *ADS Snippet*? Well for starters we will want to make another tweak to this script which will invoke ‘variable substitution’ logic on re-use. This is achieved by replacing '**column_name**' with the parameter syntax **${1:ColumnName}**:
+Ok, saving a file is admittedly a pretty basic user action. However, what if you would like to save this query as a reusable *ADS Snippet*? Well for starters we will want to make another tweak to this script which will invoke the ‘variable substitution’ logic on re-use. This is achieved by replacing '**column_name**' with the parameter syntax **${1:ColumnName}** as shown in the following code block:
 
 ```sql
 select * from INFORMATION_SCHEMA.COLUMNS where COLUMN_NAME = '${1:ColumnName}'
@@ -110,7 +110,7 @@ To save the snippet, press CTRL+SHIFT+P (or from the ‘Menu Bar’ click on Vie
 
 ![Figure 3-12. Configure User Snippets](Figure_03_12.png)
 
-Next enter ‘sql’ into the snippet search, and select the file: sql.json as displayed in figure 3-13:
+Next enter ‘sql’ into the snippet search, and select the file: "sql.json" as displayed in figure 3-13:
 
 ![Figure 3-13. sql.json Snippets File](Figure_03_13.png)
 
@@ -118,7 +118,7 @@ And then paste in your json script as shown in figure 3-14:
 
 ![Figure 3-14. A Sample sql.json Snippet](Figure_03_14.png)
 
-Notice the above window (outlined in red) also provides the physical location of the ‘sql.json’ file that you are modifying [^sniplocation]. Press CTRL+S to save your changes and enable your new snippet to be used. To test, press CTRL+N to create a new query window and then type the character sequence: ‘infcol’. You should see the snippet pop-up as rendered in figure 3-15:
+Notice the above window (outlined in red) also provides the physical location of the ‘sql.json’ file that you are modifying [^sniplocation]. Press CTRL+S to save your changes which will enable your new snippet to be used. To test, press CTRL+N to create a new query window and then type the character sequence: ‘infcol’. You should see the snippet pop-up as rendered in figure 3-15:
 
 ![Figure 3-15. Using IntelliSense to Find a Snippet](Figure_03_15.png)
 
@@ -126,14 +126,14 @@ Selecting this snippet will produce the SQL code in your editor window, with the
 
 ![Figure 3-16. Variable Highlighting for a Snippet](Figure_03_16.png)
 
-As mentioned earlier, we have much more content to come later in the book on ‘ADS Snippets’, which by the way can apply to *any* of the Azure Data Studio supported languages, including PowerShell and Python.
+As mentioned earlier, we have more content on ‘ADS Snippets’ to come later in the book, which by the way can apply to *any* of the Azure Data Studio supported languages, including PowerShell and Python.
 
 ## Top Down View with Minimap
-Life at times can be detailed and complex. The same can be true of ‘SQL code’, or for that matter ‘code’ written in any language. Most database developers have written, reviewed, or maintained SQL code that exceeds hundreds, or perhaps even a thousand lines. While ‘big code’ can be intimidating, ADS has a *Minimap* feature that can at least ease the pain of working with large SQL scripts.
+Life at times can be detailed and complex. The same can be true of ‘SQL code’, or for that matter ‘code’ written in any language. Most database developers have written, reviewed, or maintained SQL scripts that exceeds one hundred, or perhaps even one thousand lines of code. While ‘big code’ can be intimidating, ADS has a *Minimap* feature that can at least ease the pain of working with large SQL scripts.
 
-> For the following example you can use any SQL code sample. If more lines are needed for visual effect, just use copy/paste to multiply your lines of SQL code.
+> For the following example you can use **any** SQL code sample. If more lines are needed for visual effect, just use copy/paste to multiply your lines of SQL code.
 
-To get started with Minimap, you will first want to turn this feature on via the ‘Command Palette” by pressing CRTL+SHIFT+P, entering ‘minimap’, and selecting “View: Toggle Minimap” as shown in figure 3-17:
+To get started with Minimap, you will first want to turn this feature on via the ‘Command Palette” by pressing CRTL+SHIFT+P, typing ‘minimap’, and selecting “View: Toggle Minimap” as shown in figure 3-17:
 
 ![Figure 3-17. Toggle Minimap On](Figure_03_17.png)
 
@@ -141,7 +141,7 @@ With any SQL script in place, and with Minimap turned on, you will see a birds-e
 
 ![Figure 3-18. SQL Editing with Minimap Outline](Figure_03_18.png)
 
-Syntax error are reflected in the Minimap with red highlighting as shown in figure 3-19. This is helpful as it gives immediate feedback, as well as proximity of the error, even if the actual (readable) SQL code located somewhere ‘off screen’.
+Syntax errors are reflected in the Minimap with red highlighting as shown in figure 3-19. This is helpful as it gives immediate feedback, as well as proximity of the error, even if the actual (readable) SQL code located somewhere ‘off screen’.
 
 ![Figure 3-19. Minimap Syntax Errors](Figure_03_19.png)
 
@@ -157,19 +157,20 @@ So, the next time you find yourself editing a painfully large block of SQL code,
 
 ## SQL Queries via the Command Terminal
 
-An interesting capability of Azure Data Studio is the integration of a standard SQL editor with other language options. These language options are available by using *Notebooks* (introduced beginning in Chapter 5), as well as by the integrated *Terminal* window which we will introduce next.
+An interesting capability of Azure Data Studio is the integration of a standard SQL editor with other language options. These language options are available by using *Notebooks* (introduced beginning in Chapter 5), as well as by using the integrated *Terminal* window, which we will introduce next.
 
 To open the *Terminal* window, press CTRL+` (backtick), or when using the ‘Menu bar’, select View, Terminal. Once opened, you will see the Terminal pane on the bottom right section of the ADS application as shown in figure 3-22:
 
 ![Figure 3-22. ADS Terminal Window](Figure_03_22.png)
 
-Notice the Terminal opens in the context of the ‘Windows Command Prompt’ which also inherits the *Folder* context that was previously opened in ADS (in our case it was named “Chapter 03 Queries”). Although we could query SQL via the Windows Command Prompt, we will have more options when using PowerShell. To switch the context to PowerShell, you can simply type ‘PowerShell’ into the Terminal window to get the results displayed in Figure 3-23:
+Notice the Terminal opens in the context of the ‘Windows Command Prompt’ which also inherits the *Folder* location that was previously opened in ADS (in our case it was named “Chapter 03 Queries”). Although we could query SQL via the Windows Command Prompt using *isql.exe*, we will have more options when using PowerShell. To switch the context to PowerShell, you can simply type ‘PowerShell’ (or PWSH for "PowerShell Core") into the Terminal window to get the results displayed in Figure 3-23:
 
 ![Figure 3-23. PowerShell Terminal Window](Figure_03_23.png)
 
-> Note: In Chapter 15 we will use the new “PowerShell Integrated Console” activated by using the ‘Activity Bar’ PowerShell Icon.
+> Note: In Chapter 15 we will use the new “PowerShell Integrated Console” which activated by using the PowerShell Icon on the Activity Bar.
 
-To query your ‘local instance’ of SQL Server, enter the following command into the PowerShell command prompt
+To query your ‘local instance’ of SQL Server, enter the following command into the PowerShell command prompt:
+
 ```powershell
 Invoke-Sqlcmd -Query "select * from INFORMATION_SCHEMA.TABLES" -ServerInstance "localhost"
 ```
@@ -185,6 +186,6 @@ When running this PowerShell script in the Terminal, the prior results are now a
 
 ![Figure 3-25. Exporting a Query using PowerShell](Figure_03_25.png)
 
-This is a simple but instructive example of the ‘synthesis’ of traditional SQL queries, with the extended language support built into Azure Data Studio. This illustration leveraged the ADS Terminal window running PowerShell, that leveraged a SQL script. But read on as deeper and even surprising capabilities lie ahead when fusing SQL code with other ADS supported languages!
+The above exercise is a fairly simple yet instructive example of the ‘synthesis’ of a traditional SQL query, with the extended language support built into Azure Data Studio. This illustration leveraged the ADS Terminal window running PowerShell, that leveraged a SQL script. Do read on as deeper and even surprising capabilities lie ahead when fusing SQL code with other ADS supported languages!
 
 [^sniplocation]: This file could be updated using any editor, or json code generator
