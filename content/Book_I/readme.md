@@ -1,4 +1,4 @@
-[Back](..\..\README.md)
+[Back](..\README.md)
 
 ## Code Samples, Notebooks, and Sample Book Content
 - [Introduction](Introduction/readme.md)
