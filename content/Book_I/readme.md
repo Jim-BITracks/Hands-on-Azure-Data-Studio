@@ -1,8 +1,6 @@
-# Book I - Getting Started
+[Back](../../readme.md)
 
-[Back](../readme.md)
-
-## Code Samples and Notebooks for Book I
+## Code Samples, Notebooks, and Sample Book Content
 - [Introduction](Introduction/readme.md)
 - [Chapter 1 - Open Source, Cross-Platform, Multi-Database](CH-01/readme.md)
 - [Chapter 2 - Everything Starts with a Connection](CH-02/readme.md)
