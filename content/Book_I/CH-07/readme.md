@@ -5,7 +5,8 @@ Source Control is an indispensable capability when creating software, and can po
 
 [Full text available at leanpub.com](https://leanpub.com/hands-on-ads)
 
-# ***Contents***
+# ***Content Outline, Code Samples, and Links***
+
 > (No notebooks are included in this chapter)
 
 ## Cloning this book's repository

@@ -7,7 +7,7 @@ This is fine if your task at hand is fully SQL centric. However often times we n
 
 [Full text available at leanpub.com](https://leanpub.com/hands-on-ads)
 
-# ***Contents***
+# ***Content Outline, Notebooks, Code Samples, and Links***
 
 > Notebook:
 > [Copy Table Example](CH-06-01.ipynb)

@@ -5,7 +5,8 @@ Extensions are core to Azure Data Studio, and represent a profound invitation fr
 
 [Full text available at leanpub.com](https://leanpub.com/hands-on-ads)
 
-# ***Contents***
+# ***Content Outline, Code Samples, and Links***
+
 > (No notebooks are included in this chapter)
 
 ## Installing and Managing your Extensions

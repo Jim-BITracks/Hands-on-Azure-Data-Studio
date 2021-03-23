@@ -1,11 +1,13 @@
 [Back](../readme.md)
 
 # Chapter 4 - Visualizing and Exporting Your Queries
-SQL queries generally return rows and columns which can suffice, especially with small datasets. However, if you have a larger result set, and/or you have the need to share the information, you need more instrumentation. This chapter will illustrate how Azure Data Studio can help with transforming a SQL query's result set. As data professionals it is often helpful to *visualize* a set of data, as well as to share results and analysis with our co-workers, internal and external clients, or even feed into other workstreams. Instead of relying on external applications, ADS is happily a one-stop-shop to create, run, visualize, and export your database queries. [Full text available at leanpub.com](https://leanpub.com/hands-on-ads)
+SQL queries generally return rows and columns which can suffice, especially with small datasets. However, if you have a larger result set, and/or you have the need to share the information, you need more instrumentation. This chapter will illustrate how Azure Data Studio can help with transforming a SQL query's result set. As data professionals it is often helpful to *visualize* a set of data, as well as to share results and analysis with our co-workers, internal and external clients, or even feed into other workstreams. Instead of relying on external applications, ADS is happily a one-stop-shop to create, run, visualize, and export your database queries.
 
-# ***Contents***
+[Full text available at leanpub.com](https://leanpub.com/hands-on-ads)
+
+# ***Content Outline, Code Samples, and Links***
+
 > (No notebooks are included in this chapter)
-
 
 ## Loading Sample Data
 

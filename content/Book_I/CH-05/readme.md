@@ -3,12 +3,17 @@
 # Chapter 5 - Getting Things Done with Notebooks
 ‘Jupyter Notebooks’ are a sleeping giant, poised to change about everything we do with data, analysis, and related processing. Born from Data Science, Jupyter Notebooks combine rich text, images, links, and code (for example SQL) along with persistent query results. These notebooks are fully packaged in a convenient and reusable text (json) file, which can also be stitched together forming a ‘book’ with related ‘readme’, and navigational ‘.yml’ files. This groundbreaking capability is deeply integrated into Azure Data Studio and is destined to have a broad impact with many of your SQL, Python, PowerShell, and other language interactions while working with your data and processes.
 
-# ***Contents***
+[Full text available at leanpub.com](https://leanpub.com/hands-on-ads)
 
-> Notebooks:
-> [NYC Car Accidents](CH-05-01.ipynb)
-> [PowerShell Notebook](CH-05-02.ipynb)
-> [Python Notebook](CH-05-03.ipynb)
+# ***Content Outline, Notebooks, Code Samples, and Links***
+
+## Notebooks:
+
+[NYC Car Accidents](CH-05-01.ipynb)
+
+[PowerShell Notebook](CH-05-02.ipynb)
+
+[Python Notebook](CH-05-03.ipynb)
 
 
 ## Notebook Building Blocks
